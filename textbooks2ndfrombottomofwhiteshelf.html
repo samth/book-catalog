@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="columns-per-page" content="1" />
+        <title>Library</title>
+        <script type="text/javascript">
+        if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/))
+            window.location.pathname = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/")) + "/iphone/index.html";
+        </script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="prototype.js" type="text/javascript"></script>
+        <script src="animator.js" type="text/javascript"></script>
+        <script src="library.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        <div id="details" class="details_hidden">
+            <div id="details_top">
+                <div id="drag_handle">&#8212;</div>
+                <div id="rating"></div>
+                <div id="title"></div>
+                <div id="creator"></div>
+            </div>
+            <div id="description"></div>
+        </div>
+        <div id="container">
+            <div id="overlay"></div>
+            <div id="header">
+                <div id="header_cap"></div>
+            </div>
+            <div id="collection_info_section">
+                <img src="images/library.png" id="librarybanner" alt="Library" />
+                <div id="collection_info">
+                    <div id="user_image">
+                        <img src="images/C661DC1B-68D1-40FF-8EAA-EB5C71B5392E.png" alt="" />
+                    </div>
+                    <div id="user_name">My Library</div>
+                    <div id="stats">
+                        <div id="total">Collection Total:<br />
+                            <span style="font-weight: bold">545 Items</span>
+                        </div>
+                        <div id="updated">Last Updated:<br />
+                            <span style="font-weight: bold">Apr 7, 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="collection">
+                    <div id="media" onclick="deselect();">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="medium">
+                                            <div class="title">Structure and Interpretation of Computer Programs, Second Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/CFA86B30-D1F2-4FB9-9046-C1DFC518E4E6-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Harold Abelson, Gerald Jay Sussman, Julie Sussman</span>
+                                            <span class="rating"></span>
+                                            <span class="description">With an analytical and rigorous approach to problem solving and programming techniques, this book is oriented toward engineering. Structure and Interpretation of Computer Programs emphasizes the central role played by different approaches to dealing with time in computational models. Its unique approach makes it appropriate for an introduction to computer science courses, as well as programming languages and program design.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Compilers: Principles, Techniques, and Tools</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/2EDDD7D5-58EF-4477-9F3D-CA7AF9666DF4-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Alfred V. Aho, Ravi Sethi, Jeffrey D. Ullman</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This introduction to compilers is the direct descendant of the well-known book by Aho and Ullman, Principles of Compiler Design. The authors present updated coverage of compilers based on research and techniques that have been developed in the field over the past few years. The book provides a thorough introduction to compiler design and covers topics such as context-free grammars, fine state machines, and syntax-directed translation. 0201100886B04062001</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Organic Chemistry of Enzyme-Catalyzed Reactions, Revised Edition, Second Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/6B5B7DA0-CD82-4E9B-879A-7B48040D6E8E-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Richard B. Silverman Ph.D Organic Chemistry</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The Organic Chemistry of Enzyme-Catalyzed Reactions is not a book on enzymes, but rather a book on the general mechanisms involved in chemical reactions involving enzymes. An enzyme is a protein molecule in a plant or animal that causes specific reactions without itself being permanently altered or destroyed.<br />
+                                                <br />
+                                                This is a revised edition of a very successful book, which appeals to both academic and industrial markets.<br />
+                                                <br />
+                                                Illustrates the organic mechanism associated with each enzyme-catalyzed reaction<br />
+                                                Makes the connection between organic reaction mechanisms and enzyme mechanisms<br />
+                                                Compiles the latest information about molecular mechanisms of enzyme reactions<br />
+                                                Accompanied by clearly drawn structures, schemes, and figures<br />
+                                                Includes an extensive bibliography on enzyme mechanisms covering the last 30 years<br />
+                                                Explains how enzymes can accelerate the rates of chemical reactions with high specificity<br />
+                                                Provides approaches to the design of inhibitors of enzyme-catalyzed reactions<br />
+                                                Categorizes the cofactors that are appropriate for catalyzing different classes of reactions<br />
+                                                Shows how chemical enzyme models are used for mechanistic studies<br />
+                                                Describes catalytic antibody design and mechanism<br />
+                                                Includes problem sets and solutions for each chapter<br />
+                                                Written in an informal and didactic style</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Schemers Guide</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/5DAD657A-7C4A-4551-876B-0B79A53EE200-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Iain Ferguson</span>
+                                            <span class="rating"></span>
+                                            <span class="description"></span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Immunology, Fifth Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/604DB08C-FAD8-45C9-8A84-0028EF3DEC93-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Richard A. Goldsby, Thomas J. Kindt, Janis Kuby, Barbara A. Osborne</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The new edition of the acclaimed bestseller, always praised for offering cutting edge material in the context of landmark experiments, in a student friendly format built on pedagogy not usually found in immunology texts.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Advanced Engineering Mathematics</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/E7730A5E-0052-40EE-AD4C-D668E70DF79F-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Michael Greenberg</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This clear, pedagogically rich book develops a strong understanding of the mathematical principles and practices that today's engineers need to know. Equally as effective as either a textbook or reference manual, it approaches mathematical concepts from an engineering perspective, making physical applications more vivid and substantial. Its comprehensive instructional framework supports a conversational, down-to-earth narrative style, offering easy accessibility and frequent opportunities for application and reinforcement.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Semantics of Programming Languages: Structures and Techniques</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/72BA5B96-21D2-4BA5-B7D6-B695B1E9F49A-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Carl A. Gunter</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Semantics of Programming Languages exposes the basic motivations and philosophy underlying the applications of semantic techniques in computer science. It introduces the mathematical theory of programming languages with an emphasis on higher-order functions and type systems. Designed as a text for upper-level and graduate-level students, the mathematically sophisticated approach will also prove useful to professionals who want an easily referenced description of fundamental results and calculi.Basic connections between computational behavior, denotational semantics, and the equational logic of functional programs are thoroughly and rigorously developed. Topics covered include models of types, operational semantics, category theory, domain theory, fixed point (denotational). semantics, full abstraction and other semantic correspondence criteria, types and evaluation, type checking and inference, parametric polymorphism, and subtyping. All topics are treated clearly and in depth, with complete proofs for the major results and numerous exercises.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Principles of Physical Biochemistry</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/68AF9ADC-A8B9-4CA7-9E10-6D7B58A16662-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Kensal E van Holde, Curtis Johnson, Pui Shing Ho</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This book offers the most up-to-date look at the theory and techniques used in the study of the physical chemistry of biological and biochemical molecules. Ken van Holde is one of the leading experts in biophysical chemistry and a well-known author (he is coauthor of an introductory biochemistry book). Comprehensive coverage of all physical techniques currently used by practicing biochemists, including. Up-to-date treatment of NMR and X-ray diffraction. Comprehensive coverage of other types of spectroscopy.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Principles of Neural Science</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/445A048B-BA1C-4F61-8B5C-28CEE5A362F1-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Eric Kandel, James Schwartz, Thomas Jessell</span>
+                                            <span class="rating"></span>
+                                            <span class="description">A Doody's Core Title for 2011!<br />
+                                                <br />
+                                                5 STAR DOODY'S REVIEW!<br />
+                                                "This is a simply wonderful book that makes accessible in one place all the details of how the neuron and brain work. The writing is clear. The drawings are elegant and educational. The book is a feast for both the eye and mind. The richness, the beauty, and the complexity of neuroscience is all captured in this superb book."—Doody's Review Service Now in resplendent color, the new edition continues to define the latest in the scientific understanding of the brain, the nervous system, and human behavior. Each chapter is thoroughly revised and includes the impact of molecular biology in the mechanisms underlying developmental processes and in the pathogenesis of disease. Important features to this edition include a new chapter - Genes and Behavior; a complete updating of development of the nervous system; the genetic basis of neurological and psychiatric disease; cognitive neuroscience of perception, planning, action, motivation and memory; ion channel mechanisms; and much more.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Object-Oriented Programming in COMMON LISP: A Programmer's Guide to CLOS</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/95D5FE1F-7F0E-4BA4-A59C-0B8256980B31-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Sonya E. Keene</span>
+                                            <span class="rating"></span>
+                                            <span class="description"></span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Practice of Programming</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/9B79927E-52E4-4CB9-9ED3-206C72ED9D96-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Brian W. Kernighan, Rob Pike</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Provides advice, real-world examples in C, C++, Java, and a variety of special purpose languages. Includes debugging, testing, performance, portability, design, interfaces, style, and notation. Softcover. DLC: Computer programming.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Principles of Biochemistry</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/315B2022-3954-453D-827D-276064DE400C-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Albert L. Lehninger, David L. Nelson, Michael M. Cox</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Great Biochemistry text used in Medical School courses.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Biological Physics: Energy, Information, Life</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/B04D208B-90E8-4CE4-A69B-BBAAF8616409-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Philip Nelson</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Physics and engineering departments are building research programs in biological physics, but until now there has not been a synthesis of this dynamic field at the undergraduate level. Biological Physics focuses on new results in molecular motors, self-assembly, and single-molecule manipulation that have revolutionized the field in recent years, and integrates these topics with classical results. The text also provides foundational material for the emerging field of nanotechnology. The text is built around a self-contained core geared toward undergraduate students who have had one year of calculus-based physics. Additional "Track-2" sections contain more advanced material for senior physics majors and graduate students.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Handbook of Programming Languages (HPL): Imperative Programming Languages</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D1EA0755-66E8-43E0-B82D-0AECC3CF05C9-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Peter Salus, Peter H. Salus</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This handbook covers imperative programming languages. There are chapters on FORTRAN, C, Turbo Pascal and Icon. For each language, information on history, syntax, variables, tips and traps is provided.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Programming Languages: Concepts and Constructs</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/4184D7DD-35E8-4F5B-841D-42EE1618823D-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Ravi Sethi</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Programming Languages: Concepts and Constructs, Second Edition retains the "character" of the original, emphasizing concepts and how they work together. This classic book has been thoroughly revised to provide readable coverage of the major programming paradigms. Dr. Sethi's treatment of the core concepts of imperative programming in languages like Pascal and C flows smoothly into object-oriented programming in C++ and Smalltalk. The charm of functional languages is illustrated by programs in standard ML and the Scheme dialect of Lisp. Logic programming is introduced using Prolog. Novices, who have been introduced to programming in some language, will learn from this book how related concepts work together while designers and implementers willp be exposed to the major programming paradigms. Example programs from the book are available as source code. These are available by anonymous ftp at ftp://ftp.aw.com/cseng/authors/sethi/pl2e. 0201590654B04062001</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Operating System Concepts, 5th Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/9996AEF6-9E32-4976-98D7-90EFE5D827E9-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Abraham Silberschatz, Bill Zorbrist, Peter Galvin</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This textbook provides coverage of the fundamental concepts which make up the foundation of operating systems and also gives practical experience with a fully functioning instructional operating system called NACHOS. This edition also features new chapters on the history of the operating systems and on computer ethics, as well as a further case study on WindowsNT. Memory management, including modern computer architectures and file system design and implementation are also covered. Common operating systems (MS-DOS, OS/2, Sun OS5 and Macintosh) are used throughout to illustrate concepts and provide examples of performance characteristics.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Principles of Instrumental Analysis, 5th Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D2DA39FE-A48A-4601-B206-0404B8B33E62-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Douglas A. Skoog, F. James Holler, Timothy A. Nieman</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This text is written for a course that deals with the principles and applications of modern analytical instruments. Emphasis is placed upon the theoretical basis of each type of instrument, its optimal area of application, its sensitivity, its precision, and its limitations. The text also introduces students to elementary integrated circuitry, microprocessors and computers, and treatment of analytical data.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Advanced Programming in the UNIX</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/5D84558F-0E61-4D5E-90BB-0B63AAADC15F-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">W. Richard Stevens</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Bestselling UNIX author W. Richard Stevens offers application developers and system programmers his professional, experience-based guidance on using the system call interface with C. In the first half of the book, Stevens describes more than 200 system calls and functions with a brief example program following each description. Having provided the basics, Stevens moves on to chapter-long examples. The book is applicable to all major UNIX releases, especially System V Release 4-including Solaris 2-and 4.4 BSD, including 386 BSD.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The C++ Programming Language: Special Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/5509019C-B0AA-41F8-BEB0-FAAEDB7662FA-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Bjarne Stroustrup</span>
+                                            <span class="rating"></span>
+                                            <span class="description">More than three-quarters of a million programmers have benefited from this book in all of its editions<br />
+                                                <br />
+                                                Written by Bjarne Stroustrup, the creator of C++, this is the world's most trusted and widely read book on C++.<br />
+                                                <br />
+                                                For this special hardcover edition, two new appendixes on locales and standard library exception safety (also available at www.research.att.com/~bs/) have been added. The result is complete, authoritative coverage of the C++ language, its standard library, and key design techniques. Based on the ANSI/ISO C++ standard, The C++ Programming Language provides current and comprehensive coverage of all C++ language features and standard library components.<br />
+                                                <br />
+                                                For example:abstract classes as interfacesclass hierarchies for object-oriented programmingtemplates as the basis for type-safe generic softwareexceptions for regular error handlingnamespaces for modularity in large-scale softwarerun-time type identification for loosely coupled systemsthe C subset of C++ for C compatibility and system-level workstandard containers and algorithmsstandard strings, I/O streams, and numericsC compatibility, internationalization, and exception safetyBjarne Stroustrup makes C++ even more accessible to those new to the language, while adding advanced information and techniques that even expert C++ programmers will find invaluable.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Component Software: Beyond Object-Oriented Programming</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/F67478B7-17E2-4C4B-9018-AB81B8775C96-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Clemens Szyperski</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The author describes his book as a "unique blend of market and technology coverage, broad and fair coverage of current technologies and a deep discussion of real problems with their solutions where known". The first edition won the "Jolt Award" became the leading book on the market to combine explanations of what the key technologies are, how to use them and why they are important in the software market-place, and look at these in terms of both the technical and business issues. The book was also the first to define components and clarify the key questions surrounding them, show how they are key to software design and offer a historical overview of their development.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Computer Networks</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/9951852E-A328-4BC5-BBC1-859F1AB9ECEA-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Andrew S. Tanenbaum</span>
+                                            <span class="rating"></span>
+                                            <span class="description">New edition of the classic best-seller. Takes a structured approach to networking, starting at the bottom and gradually working up to the top. DLC: Computer networks.</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- End media -->
+                </div>
+                <!-- End collection -->
+                <div id="sidebar">
+                    <div class="navigation_header"></div>
+                    
+                    <div class="shelf_selection"><a class="shelf" href="index.html">Books</a><a class="shelf" href="aboveprinter.html">Above printer</a><a class="shelf" href="maes2ndshelf.html">Mae's 2nd shelf</a><a class="shelf" href="maes3rdshelf.html">Mae's 3rd shelf</a><a class="shelf" href="maestopshelf.html">Mae's top shelf</a><a class="shelf" href="morenexttoprinter.html">more next to printer</a><a class="shelf" href="nexttoprinter.html">next to printer</a><a class="shelf selected" href="textbooks2ndfrombottomofwhiteshelf.html">Textbooks - 2nd from bottom of white shelf</a><a class="shelf" href="textbooksbottomofwhiteshelf.html">Textbooks-Bottom of white shelf</a><a class="shelf" href="tolkien.html">Tolkien</a><a class="shelf" href="topwhiteshelf.html">Top White Shelf</a><a class="shelf" href="mystery.html">Mystery</a></div>
+                    <div class="navigation_footer"></div>
+                </div>
+                <!-- End sidebar -->
+                <div style="clear: both;"></div>
+            </div>
+            <!-- End content -->
+            <div id="footer">
+                <a href="http://www.delicious-monster.com">
+                    <img src="images/monster.png" alt="" />
+                     Made with Delicious Library
+                </a>
+                <p></p>
+            </div>
+            <!-- End footer -->
+        </div>
+        <!-- End container -->
+    </body>
+</html>
