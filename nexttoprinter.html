@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="columns-per-page" content="1" />
+        <title>Library</title>
+        <script type="text/javascript">
+        if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/))
+            window.location.pathname = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/")) + "/iphone/index.html";
+        </script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="prototype.js" type="text/javascript"></script>
+        <script src="animator.js" type="text/javascript"></script>
+        <script src="library.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        <div id="details" class="details_hidden">
+            <div id="details_top">
+                <div id="drag_handle">&#8212;</div>
+                <div id="rating"></div>
+                <div id="title"></div>
+                <div id="creator"></div>
+            </div>
+            <div id="description"></div>
+        </div>
+        <div id="container">
+            <div id="overlay"></div>
+            <div id="header">
+                <div id="header_cap"></div>
+            </div>
+            <div id="collection_info_section">
+                <img src="images/library.png" id="librarybanner" alt="Library" />
+                <div id="collection_info">
+                    <div id="user_image">
+                        <img src="images/C661DC1B-68D1-40FF-8EAA-EB5C71B5392E.png" alt="" />
+                    </div>
+                    <div id="user_name">My Library</div>
+                    <div id="stats">
+                        <div id="total">Collection Total:<br />
+                            <span style="font-weight: bold">166 Items</span>
+                        </div>
+                        <div id="updated">Last Updated:<br />
+                            <span style="font-weight: bold">Apr 7, 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="collection">
+                    <div id="media" onclick="deselect();">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="medium">
+                                            <div class="title">Capital - A Critique of Political Economy: Volume 1-The Process of Capitalist Production</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/104D8574-FE54-4D9F-BB17-D135DCEFD125-140.png" alt="" />
+                                            </div>
+                                            <span class="creator"></span>
+                                            <span class="rating"></span>
+                                            <span class="description">Paperback w/ acceptable cover, vg text, Front is worn, creased, discolored, small closed tears, back is merely discolored. Published in 1967 by International Publishers Co., Inc. , eighth printing 1977. 807 pages. " The present Volume 1 of Capital is published on the occasion of the 100th Aniverversary of the first German Edition..Reproduced here is the unabridged text of Enlish edion of 1887, edited by Frederick Engels...and as corrected by the Progress Publishers, Moscow, in their edition of 1965."—from back cover and from copyright page. This copy , very neat &amp; moderate underlining generally throughout.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Info Box: The Catalogue</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D7C72577-FB89-4632-98EC-05EA1C53AAEB-140.png" alt="" />
+                                            </div>
+                                            <span class="creator"></span>
+                                            <span class="rating"></span>
+                                            <span class="description"></span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Aeschylus I: Oresteia: Agamemnon, The Libation Bearers, The Eumenides</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D9AC45D9-2CEC-4E79-BC07-34F6FE86BBD1-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Aeschylus, David Grene, Richmond Lattimore</span>
+                                            <span class="rating"></span>
+                                            <span class="description">"These authoritative translations consign all other complete collections to the wastebasket."—Robert Brustein, The New Republic<br />
+                                                <br />
+                                                "This is it. No qualifications. Go out and buy it everybody."—Kenneth Rexroth, The Nation<br />
+                                                <br />
+                                                "The translations deliberately avoid the highly wrought and affectedly poetic; their idiom is contemporary....They have life and speed and suppleness of phrase."—Times Education Supplement<br />
+                                                <br />
+                                                "These translations belong to our time. A keen poetic sensibility repeatedly quickens them; and without this inner fire the most academically flawless rendering is dead."—Warren D. Anderson, American Oxonian<br />
+                                                <br />
+                                                "The critical commentaries and the versions themselves...are fresh, unpretentious, above all, functional."—Commonweal<br />
+                                                <br />
+                                                "Grene is one of the great translators."—Conor Cruise O'Brien, London Sunday Times<br />
+                                                <br />
+                                                "Richmond Lattimore is that rara avis in our age, the classical scholar who is at the same time an accomplished poet."—Dudley Fitts, New York Times Book Review</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Lysistrata/The Acharnians/The Clouds</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/E2CF30FC-07DD-4C39-8C6D-03DE927492BE-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Aristophanes</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Writing at the time of political and social crisis in Athens, Aristophanes was an eloquent yet bawdy challenger to the demagogue and the sophist. The Achanians is a plea for peace set against the background of the long war with Sparta. In Lysistrata a band of women tap into the awesome power of sex in order to end a war. The darker comedy of The Clouds satirizes Athenian philosophers, Socrates in particular, and reflects the uncertainties of a generation in which all traditional religious and ethical beliefs were being challenged.<br />
+                                                <br />
+                                                @PussyWhip What’s something we can leverage against men? What’s the one thing we’re good for again? It’s on the tip of my tongue.<br />
+                                                <br />
+                                                From Twitterature: The World's Greatest Books in Twenty Tweets or Less</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Knights; Peace; The Birds; The Assembly Women; Wealth</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/FE525111-3235-441B-91E6-EDA2B67EE1C9-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Aristophanes</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This new verse translation of Aristophanes' comedies offers one of the world's great comic dramatists in a form that is both historically faithful and theatrically vigorous. Aristophanes' plays were produced for the festival theater of classical Athens in the fifth century BC and encompass the whole gamut of humor, from brilliantly inventive fantasy to obscene vulgarity. This edition includes a substantial general introduction and introductory essays for each of the plays, as well as full explanatory notes and an index of names.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Winter Trails Vermont and New Hampshire, 2nd: The Best Cross-Country Ski &amp; Showshoe Trails</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D179BC84-CF34-47F4-A15E-7B12F7773A76-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Marty Basch</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Designed for everyone, from consummate skiers and snowshoers to beginners and families, Winter Trails will lead you to the best places to snowshoe or cross-country ski in Vermont and New Hampshire. Be it a day trip or a two-hour jaunt, you can enjoy the beauty and peacefulness of winter with these forty-six carefully researched trails. Each outing includes information about the natural landscape, distance in miles, trail difficulty and surface quality. You'll also find a rundown of proper equipment and clothing suggestions and tips on safety, navigation, and trail etiquette. Use this guide to explore the best trails that Vermont and New Hampshire have to offer. (6 x 9, 192 pages, b&amp;w photos, maps, icons)</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Spartina</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/281272F7-216C-4D00-9343-92CCDED99FC5-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">John Casey</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Dick Pierce, the flawed hero of Spartina, is torn by his love for his wife and sons, his passion for his mistress and his obsession with his 54-foot boat, Spartina." The National Book Award winner is in paperback for the first time.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Adventures in Medialand: Behind the News, Beyond the Pundits</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/3832C696-6F79-4035-9351-B28249F0204C-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Jeff Cohen, Norman Solomon</span>
+                                            <span class="rating"></span>
+                                            <span class="description">behind the news beyond the pundits</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Bacchae of Euripides: A New Translation with a Critical Essay</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/BD4BDBDF-717E-449A-A0F4-C5A921EA7C73-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Euripides</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This new translation of The Bacchae—that strange blend of Aeschylean grandeur and Euripidean finesse—is an attempt to reproduce for the American stage the play as it most probably was when new and unmutilated in 406 B.C. The achievement of this aim involves a restoration of the "great lacuna" at the climax and the discovery of several primary stage effects very likely intended by Euripides. These effects and controversial questions of the composition and stylistics are discussed in the notes and the accompanying essay.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Euripides IV: Rhesus / The Suppliant Women / Orestes / Iphigenia in Aulis</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/24FD2D0C-0383-4CBD-A17B-1A1459D6C395-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Euripides, David Grene, Richmond Lattimore</span>
+                                            <span class="rating"></span>
+                                            <span class="description">In nine paperback volumes, the Grene and Lattimore editions offer the most comprehensive selection of the Greek tragedies available in English. Over the years these authoritative, critically acclaimed editions have been the preferred choice of over three million readers for personal libraries and individual study as well as for classroom use.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Sophocles, The Oedipus Cycle: Oedipus Rex, Oedipus at Colonus, Antigone</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/893BD740-CB9E-418C-81F3-806FDF7FD3D3-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Dudley Fitts, Robert Fitzgerald, Sophocles</span>
+                                            <span class="rating"></span>
+                                            <span class="description">English versions of Sophocles’ three great tragedies based on the myth of Oedipus, translated for a modern audience by two gifted poets. Index.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Mirror Worlds: Or: The Day Software Puts the Universe in a Shoebox...How It Will Happen and What It Will Mean</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/4AD7A521-7402-488A-99BD-72EE15E63AF9-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">David Gelernter</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Technology doesn't flow smoothly; it's the big surprises that matter, and Yale computer expert David Gelernter sees one such giant leap right on the horizon. Today's small scale software programs are about to be joined by vast public software works that will revolutionize computing and transform society as a whole. One such vast program is the "Mirror World."<br />
+                                                Imagine looking at your computer screen and seeing reality—an image of your city, for instance, complete with moving traffic patterns, or a picture that sketches the state of an entire far-flung corporation at this second. These representations are called Mirror Worlds, and according to Gelernter they will soon be available to everyone. Mirror Worlds are high-tech voodoo dolls: by interacting with the images, you interact with reality. Indeed, Mirror Worlds will revolutionize the use of computers, transforming them from (mere) handy tools to crystal balls which will allow us to see the world more vividly and see into it more deeply. Reality will be replaced gradually, piece-by-piece, by a software imitation; we will live inside the imitation; and the surprising thing is—this will be a great humanistic advance. We gain control over our world, plus a huge new measure of insight and vision.<br />
+                                                In this fascinating book—part speculation, part explanation—Gelernter takes us on a tour of the computer technology of the near future. Mirror Worlds, he contends, will allow us to explore the world in unprecedented depth and detail without ever changing out of our pajamas. A hospital administrator might wander through an entire medical complex via a desktop computer. Any citizen might explore the performance of the local schools, chat electronically with teachers and other Mirror World visitors, plant software agents to report back on interesting topics; decide to run for the local school board, hire a campaign manager, and conduct the better part of the campaign itself—all by interacting with the Mirror World.<br />
+                                                Gelernter doesn't just speculate about how this amazing new software will be used—he shows us how it will be made, explaining carefully and in detail how to build a Mirror World using technology already available. We learn about "disembodied machines," "trellises," "ensembles," and other computer components which sound obscure, but which Gelernter explains using familiar metaphors and terms. (He tells us that a Mirror World is a microcosm just like a Japanese garden or a Gothic cathedral, and that a computer program is translated by the computer in the same way a symphony is translated by a violinist into music.)<br />
+                                                Mirror Worlds offers a lucid and humanistic account of the coming software revolution, told by a computer scientist at the cutting edge of his field.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Mismeasure of Man</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/9EF055C7-4047-4887-92B9-254211C499A9-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Stephen Jay Gould</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The definitive refutation to the argument of The Bell Curve.When published in 1981, The Mismeasure of Man was immediately hailed as a masterwork, the ringing answer to those who would classify people, rank them according to their supposed genetic gifts and limits.<br />
+                                                <br />
+                                                Yet the idea of biology as destiny dies hard, as witness the attention devoted to The Bell Curve, whose arguments are here so effectively anticipated and thoroughly undermined. In this edition, Stephen Jay Gould has written a substantial new introduction telling how and why he wrote the book and tracing the subsequent history of the controversy on innateness right through The Bell Curve. Further, he has added five essays on questions of The Bell Curve in particular and on race, racism, and biological determinism in general. These additions strengthen the book's claim to be, as Leo J. Kamin of Princeton University has said, "a major contribution toward deflating pseudo-biological 'explanations' of our present social woes."</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Art and Craft of Teaching</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/F614AFA0-06E2-456F-91A6-F8A8260B9122-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Margaret Morganroth Gullette</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Good teaching does not come naturally or easily to anyone, even to those who seem to have a gift for it. This concise and lively guide developed from the faculty seminars of the Harvard-Danforth Center for Teaching and Learning contains hundreds of insights into the fine and difficult art of leading students to demand more of themselves, find new ways of solving problems, and awaken unsuspected talents. Filled with useful suggestions for improving teaching skills, "The Art and Craft of Teaching" offers solutions to problems that every instructor faces and suggests strategies that will enrich the classroom for both beginning and experienced teachers and their students.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Daphnis and Chloe</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/772DF9CB-7A1F-4FCF-9537-14F49CA42EDA-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Longus</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This is an EXACT reproduction of a book published before 1923. This IS NOT an OCR'd book with strange characters, introduced typographical errors, and jumbled words. This book may have occasional imperfections such as missing or blurred pages, poor pictures, errant marks, etc. that were either part of the original artifact, or were introduced by the scanning process. We believe this work is culturally important, and despite the imperfections, have elected to bring it back into print as part of our continuing commitment to the preservation of printed works worldwide. We appreciate your understanding of the imperfections in the preservation process, and hope you enjoy this valuable book.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Fifth Woman</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/6862ECE9-378B-49E2-A90C-15F8B27B1B14-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Henning Mankell</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Fifth in the Kurt Wallander series.<br />
+                                                <br />
+                                                In an African convent, four nuns and a unidentified fifth woman are brutally murdered—the death of the unknown woman covered up by the local police. A year later in Sweden, Inspector Kurt Wallander is baffled and appalled by two murders. Holger Eriksson, a retired car dealer and bird watcher, is impaled on sharpened bamboo poles in a ditch behind his secluded home, and the body of a missing florist is discovered—strangled and tied to a tree. The only clues Wallander has to go on are a skull, a diary, and a photo of three men. What ensues is a case that will test Wallander’s strength and patience, because in order to discover the reason behind these murders, he will also need to uncover the elusive connection between these deaths and the earlier unsolved murder in Africa of the fifth woman.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Innumeracy: Mathematical Illiteracy and Its Consequences</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/FFEC5D88-22AB-46FA-9C06-0692CB3726F6-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">John Allen Paulos</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Dozens of examples in innumeracy show us how it affects not only personal economics and travel plans, but explains mischosen mates, inappropriate drug-testing, and the allure of psuedo-science.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Beyond Numeracy</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/B4595ACF-818D-4257-AFB6-B15F4F547525-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">John Allen Paulos</span>
+                                            <span class="rating"></span>
+                                            <span class="description">From the author of the national bestseller Innumeracy, a delightful exploration and explanation of mathematical concepts from algebra to zero in easily accessible alphabetical entries. "Paulos . . . does for mathematics what The Joy of Sex did for the boudoir. . . ."—Washington Post Book World. First time in paperback.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Troilus and Cressida</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/891ADA6B-7150-4C4E-B184-2381A0FED5B7-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">William Shakespeare, David M. Bevington, David Berington</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This edition of Troilus and Cressida provide s a clear and authoritative text, detailed notes and comment ary on the same pages as the text and an in-depth survey of critical approaches to the play. '</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Hamlet</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/FB5FD8F4-8D5E-4E65-85EA-EBA967FC3AC6-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">William Shakespeare, Cyrus Hoy</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This revised Norton Critical Edition of one of the series' most widely read texts is based on the second quarto (1604-05). Where necessary, the editor has also drawn from the folio text, recording all departures from the quarto in the Textual Notes. Punctuation and stage directions for the play have been refined, and textual annotations have been revised and expanded.<br />
+                                                <br />
+                                                The "Intellectual Backgrounds" and "Extracts from the Sources" sections, both highly praised, remain as germane as ever. Intellectual Backgrounds includes important readings on melancholy, demonology, the nature of man, and death, including works by Peter de la Primaudaye, Timothy Bright, Lewes Lavater, G. Gifford, Michel de Montaigne, and Heironymous Cardanus. Extracts from the Sources provides pre-Shakespearean accounts of the story of Hamlet, reprinting substantial excerpts from Saxo Grammaticus's Historia Danica and Belleforest's Histoires Tragiques.<br />
+                                                <br />
+                                                "Criticism" has been revised to accommodate the most significant recent interpretations of Hamlet while retaining the seminal essays of the First Edition. Twenty-three critical analyses are featured, including those by Samuel Johnson, Johann Wolfgang von Goethe, Samuel Taylor Coleridge, William Hazlitt, A. C. Bradley, D. H. Lawrence, T. S. Eliot, G. Wilson Knight, C. S. Lewis, Harry Levin, Peter J. Seng, Rebecca West, Arnold Kettle, Margaret W. Ferguson, Jacqueline Rose, and William Empson.<br />
+                                                <br />
+                                                An updated Selected Bibliography is also included.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Trouble With Physics: The Rise of String Theory, The Fall of a Science, and What Comes Next</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/4FE70DA7-A6BD-4B8F-BAF5-37D040251F41-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Lee Smolin</span>
+                                            <span class="rating"></span>
+                                            <span class="description">In this illuminating book, the renowned theoretical physicist Lee Smolin argues that fundamental physics — the search for the laws of nature — losing its way. Ambitious ideas about extra dimensions, exotic particles, multiple universes, and strings have captured the public’s imagination — and the imagination of experts. But these ideas have not been tested experimentally, and some, like string theory, seem to offer no possibility of being tested. Yet these speculations dominate the field, attracting the best talent and much of the funding and creating a climate in which emerging physicists are often penalized for pursuing other avenues. As Smolin points out, the situation threatens to impede the very progress of science. With clarity, passion, and authority, Smolin offers an unblinking assessment of the troubles that face modern physics — and an encouraging view of where the search for the next big idea may lead.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Sophocles II: Ajax, The Women of Trachis, Electra &amp; Philoctetes</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D5591205-30B1-4656-89F2-495809A7D2C8-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Sophocles, David Grene, Richmond Lattimore</span>
+                                            <span class="rating"></span>
+                                            <span class="description">"These authoritative translations consign all other complete collections to the wastebasket."—Robert Brustein, The New Republic<br />
+                                                <br />
+                                                "This is it. No qualifications. Go out and buy it everybody."—Kenneth Rexroth, The Nation<br />
+                                                <br />
+                                                "The translations deliberately avoid the highly wrought and affectedly poetic; their idiom is contemporary....They have life and speed and suppleness of phrase."—Times Education Supplement<br />
+                                                <br />
+                                                "These translations belong to our time. A keen poetic sensibility repeatedly quickens them; and without this inner fire the most academically flawless rendering is dead."—Warren D. Anderson, American Oxonian<br />
+                                                <br />
+                                                "The critical commentaries and the versions themselves...are fresh, unpretentious, above all, functional."—Commonweal<br />
+                                                <br />
+                                                "Grene is one of the great translators."—Conor Cruise O'Brien, London Sunday Times<br />
+                                                <br />
+                                                "Richmond Lattimore is that rara avis in our age, the classical scholar who is at the same time an accomplished poet."—Dudley Fitts, New York Times Book Review</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Rosencrantz and Guildenstern Are Dead</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/03ACDF65-774C-4BCB-A3C0-F22852AD409F-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Tom Stoppard</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Acclaimed as a modern dramatic masterpiece, Rosencrantz &amp; Guildenstern Are Dead is the fabulously inventive tale of Hamlet as told from the worm’s-eye view of the bewildered Rosencrantz and Guildenstern, two minor characters in Shakespeare’s play. In Tom Stoppard’s best-known work, this Shakespearean Laurel and Hardy finally get a chance to take the lead role, but do so in a world where echoes of Waiting for Godot resound, where reality and illusion intermix, and where fate leads our two heroes to a tragic but inevitable end.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Why Things Bite Back: Technology and the Revenge of Unintended Consequences</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D44EDA59-FF01-4B00-8DBB-C7BD2B8FA898-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Edward Tenner</span>
+                                            <span class="rating"></span>
+                                            <span class="description">In this fascinating book, historian of science Edward Tenner takes a fine-toothed comb to several realms of technological intervention and discovers a resolute pattern of "revenge effects, "paradoxical, ironic consequences of the step s we take supposedly to improve our lives. Whether proliferating technology is fated to lead us to utopia, we can be certain that it has plenty of tricks up its sleeve.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Bicycling Science</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/BB687BF0-2252-40D6-A8BA-828AE801C832-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">David Gordon Wilson</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The bicycle is almost unique among human-powered machines in that it uses human muscles in a near-optimum way. This new edition of the bible of bicycle builders and bicyclists provides just about everything you could want to know about the history of bicycles, how human beings propel them, what makes them go faster, and what keeps them from going even faster. The scientific and engineering information is of interest not only to designers and builders of bicycles and other human-powered vehicles but also to competitive cyclists, bicycle commuters, and recreational cyclists.The third edition begins with a brief history of bicycles and bicycling that demolishes many widespread myths. This edition includes information on recent experiments and achievements in human-powered transportation, including the "ultimate human- powered vehicle," in which a supine rider in a streamlined enclosure steers by looking at a television screen connected to a small camera in the nose, reaching speeds of around 80 miles per hour. It contains completely new chapters on aerodynamics, unusual human-powered machines for use on land and in water and air, human physiology, and the future of bicycling. This edition also provides updated information on rolling drag, transmission of power from rider to wheels, braking, heat management, steering and stability, power and speed, and materials. It contains many new illustrations.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Conversations of Socrates</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/87868B92-DFCA-4E8B-9CFE-90FCD6E1D3BF-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Xenophon, Robin H. Waterfield</span>
+                                            <span class="rating"></span>
+                                            <span class="description">After the execution of Socrates in 399 BC, a number of his followers wrote dialogues featuring him as the protagonist and, in so doing, transformed the great philosopher into a legendary figure. Xenophon's portrait is the only one other than Plato's to survive, and while it offers a very personal interpretation of Socratic thought, it also reveals much about the man and his philosophical views. In 'Socrates' Defence' Xenophon defends his mentor against charges of arrogance made at his trial, while the 'Memoirs of Socrates' also starts with an impassioned plea for the rehabilitation of a wronged reputation. Along with 'The Estate-Manager', a practical economic treatise, and 'The Dinner-Party', a sparkling exploration of love, Xenophon's dialogues offer fascinating insights into the Socratic world and into the intellectual atmosphere and daily life of ancient Greece.</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- End media -->
+                </div>
+                <!-- End collection -->
+                <div id="sidebar">
+                    <div class="navigation_header"></div>
+                    
+                    <div class="shelf_selection"><a class="shelf" href="index.html">Above printer</a><a class="shelf" href="morenexttoprinter.html">more next to printer</a><a class="shelf selected" href="nexttoprinter.html">next to printer</a><a class="shelf" href="textbooksbottomofwhiteshelf.html">Textbooks-Bottom of white shelf</a><a class="shelf" href="tolkien.html">Tolkien</a><a class="shelf" href="topwhiteshelf.html">Top White Shelf</a><a class="shelf" href="mystery.html">Mystery</a></div>
+                    <div class="navigation_footer"></div>
+                </div>
+                <!-- End sidebar -->
+                <div style="clear: both;"></div>
+            </div>
+            <!-- End content -->
+            <div id="footer">
+                <a href="http://www.delicious-monster.com">
+                    <img src="images/monster.png" alt="" />
+                     Made with Delicious Library
+                </a>
+                <p></p>
+            </div>
+            <!-- End footer -->
+        </div>
+        <!-- End container -->
+    </body>
+</html>
