@@ -1,2 +1,4 @@
 book-catalog
 ============
+
+Autogenerate.
