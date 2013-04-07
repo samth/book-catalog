@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta id="viewport" name="viewport" content="width=320; initial-scale=0.9; maximum-scale=0.9; user-scalable=no;" />
+        <title>Library</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script type="text/javascript" src="prototype.js"></script>
+        <script type="text/javascript" src="animator.js"></script>
+        <script type="text/javascript" src="library.js"></script>
+    </head>
+    <body>
+        <div id="libraryheader" style="width: 100%; height: 88px; background: url(../images/shelfheader.jpg)">
+            <div id="librarybanner">Library</div>
+            <div id="shelfnavigation">
+            <select class="shelf_selection" onchange="location.href = this.options[this.selectedIndex].value;"><option value="index.html" >Above printer</option><option value="textbooksbottomofwhiteshelf.html" >Textbooks-Bottom of white shelf</option><option value="tolkien.html" selected="selected">Tolkien</option><option value="topwhiteshelf.html" >Top White Shelf</option></select>
+        </div>
+        </div>
+        <table id="mediatable" border="0" cellspacing="0" cellpadding="0" style="width: 100%; background-image: url(../images/shelfpattern.png)">
+            <tr id="collection">
+                <td>
+                    <div class="medium">
+                        <div class="title">Tolkien: A Look Behind the Lord of the Rings</div>
+                        <span class="creator">Lin Carter</span>
+                        <span class="rating"></span>
+                        <span class="asin">034527539X</span>
+                        <span class="description">Lin Carter's joyous 1969 exploration of Tolkien's classic trilogy and the glorious tradition from which it grew.</span>
+                        <div class="cover">
+                            <img src="../images/AD908621-901D-4B36-9DF9-F1AD13A183CF-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Tolkien's World from A to Z: The Complete Guide to Middle-Earth</div>
+                        <span class="creator">Robert Foster</span>
+                        <span class="rating"></span>
+                        <span class="asin">0345449762</span>
+                        <span class="description">For the millions who have already ventured to Middle-earth, and for the countless others who have yet to embark on the journey–here is the one indispensable A-to-Z guide that brings Tolkien’s universe to life.<br />
+                            <br />
+                            EVERY CHARACTER<br />
+                            From Adaldrida Brandybuck to Zaragamba–every Hobbit, Elf, Dwarf, Man, Orc, or other resident of Middle-earth is vividly described and accurately located in proper place and time.<br />
+                            <br />
+                            EVERY PLACE<br />
+                            Colorfully detailed descriptions of geographical entries allow you to pick up the action anywhere in Middle-earth and follow it through all five volumes.<br />
+                            <br />
+                            EVERY THING<br />
+                            From stars and streams to food and flora, everything found in Middle-earth is alphabetically listed and, when necessary, cross-referenced.<br />
+                            <br />
+                            HERE IS TRULY A MASTER KEY<br />
+                            TO TOLKIEN’S MIDDLE-EARTH</span>
+                        <div class="cover">
+                            <img src="../images/1A4BB2AA-3F90-4864-BB54-D7E01103A9F8-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Two Towers Ace Science Fiction Classic A-5 Complete &amp; Unabridged</div>
+                        <span class="creator">J.R.R.Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">B0085GJPC0</span>
+                        <span class="description"></span>
+                        <div class="cover">
+                            <img src="../images/55CBC810-6EAB-4BBC-A7E3-51E7DDBE0891-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Languages of Tolkien's Middle-Earth</div>
+                        <span class="creator">Ruth S. Noel</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395291305</span>
+                        <span class="description">This is the book on all of Tolkien's invented languages, spoken by hobbits, elves, and men of Middle-earth — a dicitonary of fourteen languages, an English-Elvish glossary, all the runes and alphabets, and material on Tolkien the linguist.</span>
+                        <div class="cover">
+                            <img src="../images/A1AD6C50-589E-4EEA-90D8-590C0FA99F0B-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Fellowship of the Ring</div>
+                        <span class="creator">J. R. R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">B002H2NDMQ</span>
+                        <span class="description"></span>
+                        <div class="cover">
+                            <img src="../images/19B0E7F7-2298-4A10-B129-CC98AD3F22CE-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Lays of Beleriand</div>
+                        <span class="creator">J. R. R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0345388186</span>
+                        <span class="description">"The power of Tolkien's central characters . . . shines through." Library Journal.<br />
+                            A treasure trove of lore for old and new friends of Middle-earth. Enter now, reader, and learn of the hero of the Lay of Leithian. Hear as well of the early years of Turin the Tall, as he journeys through darkness on his quest to find his father. Read of his rescue by Beleg the Brave, and of the dark destiny that haunts their friendship! Only the genius of Tolkien could create a fantasy more real than reality, a reality more fantastic than fantasy!</span>
+                        <div class="cover">
+                            <img src="../images/8745F2BA-96C4-43F6-802B-8178D33186DA-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Letters of J.R.R. Tolkien</div>
+                        <span class="creator">J. R. R. Tolkien, Christopher Tolkien, Humphrey Carpenter</span>
+                        <span class="rating"></span>
+                        <span class="asin">0618056998</span>
+                        <span class="description">'...If you wanted to go on from the end of The Hobbit I think the ring would be your inevitable choice as the link. If then you wanted a large tale, the Ring would at once acquire a capital letter; and the Dark Lord would immediately appear. As he did, unasked, on the hearth at Bag End as soon as I came to that point. So the essential Quest started at once. But I met a lot of things along the way that astonished me. Tom Bombadil I knew already; but I had never been to Bree. Strider sitting in the corner of the inn was a shock, and I had no more idea who he was than Frodo did. The Mines of Moria had been a mere name; and of Lothlorien no word had reached my mortal ears till I came there.' — J.R.R. Tolkien to W.H. Auden, June 7, 1955<br />
+                            <br />
+                            J.R.R. Tolkien, cherished author of The Hobbit, The Lord of the Rings, and The Silmarillion, was one of the twentieth century's most prolific letter writers. Over the years he wrote a mass of letters — to his publishers, his family, to friends, and to fans of his books — which record the history and composition of his works and his reaction to subsequent events.<br />
+                            <br />
+                            By turns thoughtful, impish, scholarly, impassioned, playful, vigorous, and gentle, Tolkien poured his heart and mind into a great stream of correspondence to intimate friends and unknown admirers all over the world. From this collection one sees a mind of immense complexity and many layers — artistic, religious, charmingly eccentric, sentimental, and ultimately brilliant.<br />
+                            <br />
+                            Now newly expanded with a detailed index, this collection provides an invaluable record that sheds much light on Tolkien's creative genius, his thoughts and feelings about his own work, and the evolution of his grand design for the creation of a whole new world — Middle-earth.</span>
+                        <div class="cover">
+                            <img src="../images/0301EAD2-5F78-47EE-8F03-2908C9A1D7DF-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Tolkien Reader</div>
+                        <span class="creator">J.R.R Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">B000GQPE40</span>
+                        <span class="description"></span>
+                        <div class="cover">
+                            <img src="../images/D27E8A94-572D-47CE-B595-DA92020CC40B-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">J.R.R. Tolkien, The Hobbit First Printing August 1965 with Lion</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">B0095ZRNKG</span>
+                        <span class="description">J.R.R. Tolkien, The Hobbit 1965 with Lion. Currently listed on another website for $261.95. This is a Ballantine first edition produced to go with the 1965 first official paperback edition of Lord of the Rings, but cover artist Barbara Remington mistakenly included a lion and emus which Professor Tolkien insisted be removed immediately because there is no lion or emus in the Hobbit (and he probably did not want the Hobbit confused with the Lion, the Witch, and the Wardrobe). The lion was airbrushed out of subsequent editions, making this version quite rare (a seller on another website is asking $261.95).</span>
+                        <div class="cover">
+                            <img src="../images/F2BC4CB6-E07A-4783-BA57-9A5B1F3F9159-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Two Towers</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">B001MPMZAA</span>
+                        <span class="description">Different cover. 1st edition, Ballintine, 106 printing. Excellent condition. No marks, no spine creases. 100% Satisfaction guaranteed.</span>
+                        <div class="cover">
+                            <img src="../images/3E5D6A5D-6DCD-47AE-9DDB-1542621B12DF-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">THE FELLOWSHIP OF THE RING - PART ONE</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">B000RAEO7S</span>
+                        <span class="description"></span>
+                        <div class="cover">
+                            <img src="../images/140F12BA-FD75-4396-90BE-8E2F7A1FCD83-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Hobbit</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395177111</span>
+                        <span class="description">This deluxe collector's edition of Tolkien's modern classic is boxed and bound in green leatherette with gold and red foil rune stamping on the spine and cover. The text pages are printed in black with green accents. It includes five full page illustrations in full color and many more in two color in addition to Thror's map — all prepared by the author.   J.R.R. Tolkien's own description for the original edition: "If you care for journeys there and back, out of the comfortable Western world, over the edge of the Wild, and home again, and can take an interest in a humble hero (blessed with a little wisdom and a little courage and considerable good luck), here is a record of such a journey and such a traveler. The period is the ancient time between the age of Faerie and the dominion of men, when the famous forest of Mirkwood was still standing, and the mountains were full of danger. In following the path of this humble adventurer, you will learn by the way (as he did) — if you do not already know all about these things — much about trolls, goblins, dwarves, and elves, and get some glimpses into the history and politics of a neglected but important period. For Mr. Bilbo Baggins visited various notable persons; conversed with the dragon, Smaug the Magnificent; and was present, rather unwillingly, at the Battle of the Five Armies. This is all the more remarkable, since he was a hobbit. Hobbits have hitherto been passed over in history and legend, perhaps because they as a rule preferred comfort to excitement. But this account, based on his personal memoirs, of the one exciting year in the otherwise quiet life of Mr. Baggins will give you a fair idea of the estimable people now (it is said) becoming rather rare. They do not like noise."</span>
+                        <div class="cover">
+                            <img src="../images/8D768288-746B-4BE7-9BB2-637545CC1D0B-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Two Towers</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0345339711</span>
+                        <span class="description">The prequel to The Lord of the Rings—The Hobbit—is now a major motion picture directed by Peter Jackson<br />
+                             <br />
+                            THE GREATEST FANTASY EPIC OF OUR TIME<br />
+                             <br />
+                            The Fellowship is scattered. Some are bracing hopelessly for war against the ancient evil of Sauron. Some are contending with the treachery of the wizard Saruman. Only Frodo and Sam are left to take the accursed One Ring, ruler of all the Rings of Power, to be destroyed in Mordor, the dark realm where Sauron is supreme. Their guide is Gollum, deceitful and lust-filled, slave to the corruption of the Ring.<br />
+                             <br />
+                            Thus continues the bestselling epic that began in The Fellowship of the Ring, and which reaches its magnificent climax in The Return of the King.</span>
+                        <div class="cover">
+                            <img src="../images/3C0A9D4D-E892-4F2E-8B89-D01FE62CA926-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Unfinished Tales: The Lost Lore of Middle-earth</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0345357116</span>
+                        <span class="description">An extraordinary discovery is waiting for you on these pages. Mythic lore and forgotten legends unearthed by Christopher Tolkien from his father's archives unveil never-before-told stories of the three ages of ancient Middle-earth.</span>
+                        <div class="cover">
+                            <img src="../images/B9357F97-874C-418D-8FDE-FEE8BF0ABF2C-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Lord of the Rings</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395595118</span>
+                        <span class="description">Celebrating the birth of J.R.R. Tolkien, this centenary edition of the classic volume is illustrated with fifty specially commissioned paintings by an artist whose vision matches Tolkien's own. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, The Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell, by chance, into the hands of the hobbit, Bilbo Baggins. From his fastness in the Dark Tower of Mordor, Sauron's power spread far and wide. He gathered all the Great Rings to him, but ever he searched far and wide for the One Ring that would complete his dominion. On his eleventy-first birthday Bilbo disappeared, bequeathing to his young cousin Frodo the Ruling Ring and a perilous quest —- to journey across Middle-earth, deep into the shadow of the Dark Lord, and destroy the Ring by casting it into the Cracks of Doom. The Lord of the Rings tells of the great quest undertaken by Frodo and the Fellowship of the Ring: Gandalf the Wizard, Merry, Pippin, and Sam, Gimli the Dwarf, Legolas the Elf, Boromir of Gondor, and a tall, mysterious stranger called Strider.</span>
+                        <div class="cover">
+                            <img src="../images/A23DABDF-4C8E-4516-ADF5-026237985F98-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Book of Lost Tales, Part Two</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">034537522X</span>
+                        <span class="description">This second part of THE BOOK OF LOST TALES includes the tale of Beneren and Luthien, Turin and the Dragon, Necklace of the Dwarves, and the Fall of Gondolin. Each tale is followed by a commentary in the form of a short essay, together with the texts of associated poems, as well as information on names and vocabulary in the earliest Elvish languages.</span>
+                        <div class="cover">
+                            <img src="../images/8DB7D02B-D4D0-41D1-9CD3-5F409C696E89-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Lord of the Rings</div>
+                        <span class="creator">J.R.R. Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0618129022</span>
+                        <span class="description">In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, The Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell, by chance, into the hands of the hobbit, Bilbo Baggins.<br />
+                            From his fastness in the Dark Tower of Mordor, Sauron's power spread far and wide. He gathered all the Great Rings to him, but ever he searched far and wide for the One Ring that would complete his dominion.<br />
+                            On his eleventy-first birthday Bilbo disappeared, bequeathing to his young cousin Frodo the Ruling Ring and a perilous quest —- to journey across Middle-earth, deep into the shadow of the Dark Lord, and destroy the Ring by casting it into the Cracks of Doom. THE LORD OF THE RINGS tells of the great quest undertaken by Frodo and the Fellowship of the Ring: Gandalf the Wizard, Merry, Pippin, and Sam, Gimli the Dwarf, Legolas the Elf, Boromir of Gondor, and a tall, mysterious stranger called Strider.</span>
+                        <div class="cover">
+                            <img src="../images/2910E378-2AF0-4BAE-BD7E-E6237DBFD0E9-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Letters From Father Christmas</div>
+                        <span class="creator">J.R.R. Tolkien, Baillie Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395741327</span>
+                        <span class="description">This sumptuous gift book originates from the beautiful letters and drawings that J.R.R. Tolkien, in the guise of Father Christmas, sent to his children over a twenty-year period. Including previously unpublished illustrations, facsimiles, and text, the letters tell the story of life at the North Pole, the mischievous North Polar Bear, the helpful Ilbereth the elf, and the adventures they share between Christmases. As well as beautifully reproduced pictures, the book features ten envelopes containing ten pull-out letters and pictures for readers to read, hold, and enjoy. The pull-outs are facsimile extracts of the original letters, with a simple "translation" on the back to help those who have trouble deciphering Father Christmas's shaky handwriting. An ideal Christmas gift, perfect for reading aloud to children yet collectible for adults, this enchanting book will bring Father Christmas to a whole new generation of readers.</span>
+                        <div class="cover">
+                            <img src="../images/FB01CC1F-595C-4A5F-8092-113A5289D9D4-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">THE SILMARILLION</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0345272552</span>
+                        <span class="description">The Silmarillion tells of the Elder Days, of the First Age of Tolkien's World, when Morgoth, the first Dark Lord, dwelt in Middle Earth, and the High Elves made war upon them for the recovery of the Silmarils, the jewels containing the pure light of Valinor.  It is to this ancient drama that the characters in The Lord of the Rings so often look back to.<br />
+                            <br />
+                            Sit at the feet of the most beloved storyteller of the 20th century and hear how the world came to be.  The Silmarillion is told here in a brilliantly faceted audio production, with all the glory of the First Age itself.  Dazzlingly performed by Martin Shaw, it sparkles with the magic of the dawn of time—when Elves and Men roamed a world set spinning through space by the haunting music of supernatural choirs.  Slip through the shadows and you, too, may catch the whisper of harp-song on the winds of the high air above the mists of the world.<br />
+                            <br />
+                            This exclusive audio boxed set of Tolkien's elegant masterpiece is one that will delight fans young and old.  It is an extraordinary keepsake to be treasured and listened to again and again.</span>
+                        <div class="cover">
+                            <img src="../images/BC18B1D6-1772-4635-819D-92E13928F27A-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Shaping of Middle-Earth: The Quenta, the Ambarkanta and the Annals</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395425018</span>
+                        <span class="description">This is the fourth volume of The History of Middle-earth, edited by Christopher Tolkien, the first two comprising The Book of Lost Tales Parts One and Two, and the third The Lays of Beleriand.<br />
+                            <br />
+                            It has been given the title The Shaping of Middle-earth because the writings it includes display a great advance in the chronological and geographical structure of the legends of Middle-earth and Valinor. The hitherto wholly unknown "Ambarkanta," or Shape of the World, is the only account ever given of the nature of the imagined Universe, and it is accompanied by diagrams and maps of the world before and after the cataclysms of the War of the Gods and the Downfall of Numenor. The first map of Beleriand, in the North-west of Middle-earth, is also reproduced and discussed. In the "Annals of Valinor" and the "Annals of Beleriand" the chronology of the First Age is given shape; and with these are given the fragments of the translations into Anglo-Saxon made by Aelfwine, the Englishman who voyaged into the True West and came to Tol Eressea, the Lonely Isle, where he learned the ancient history of Elves and Men.<br />
+                            <br />
+                            Also included are the original "Silmarillion," written in 1926, from which all the later development proceeded, and the "Quenta Noldorinwa" of 1930, the only version of the myths and legends of the First Age that J.R.R. Tolkien completed to their end. As Christopher Tolkien continues editing the unpublished papers that form the bedrock from which The Lord of the Rings and The Silmarillion were quarried, the vastness of his father's accomplishment becomes even more extraordinary.</span>
+                        <div class="cover">
+                            <img src="../images/ABD1F388-A10E-4839-9214-C25079B51705-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Return of the Shadow: The History of The Lord of the Rings, Part One</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395498635</span>
+                        <span class="description">In this sixth volume of The History of Middle-earth the story reaches The Lord of the Rings. In The Return of the Shadow (an abandoned title for the first volume) Christopher Tolkien describes, with full citation of the earliest notes, outline plans, and narrative drafts, the intricate evolution of The Fellowship of the Ring and the gradual emergence of the conceptions that transformed what J.R.R. Tolkien for long believed would be a far shorter book, 'a sequel to The Hobbit'. The enlargement of Bilbo's 'magic ring' into the supremely potent and dangerous Ruling Ring of the Dark Lord is traced and the precise moment is seen when, in an astonishing and unforeseen leap in the earliest narrative, a Black Rider first rode into the Shire, his significance still unknown. The character of the hobbit called Trotter (afterwards Strider or Aragorn) is developed while his indentity remains an absolute puzzle, and the suspicion only very slowly becomes certainty that he must after all be a Man. The hobbits, Frodo's companions, undergo intricate permutations of name and personality, and other major figures appear in strange modes: a sinister Treebeard, in league with the Enemy, a ferocious and malevolent Farmer Maggot.<br />
+                            <br />
+                            The story in this book ends at the point where J.R.R. Tolkien halted in the story for a long time, as the Company of the Ring, still lacking Legolas and Gimli, stood before the tomb of Balin in the Mines of Moria. The Return of the Shadow is illustrated with reproductions of the first maps and notable pages from the earliest manuscripts.</span>
+                        <div class="cover">
+                            <img src="../images/FFE57EDB-712B-45BC-A9CC-454C04F28352-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Treason of Isengard: The History of The Lord of the Rings, Part Two</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395515629</span>
+                        <span class="description">The Treason of Isengard is the seventh volume in Christopher Tolkien's History of Middle-earth and the second in his account of the evolution of The Lord of the Rings. This book follows the long halt in the darkness of the Mines of Moria (which ended The Return of the Shadow) and traces the tale into new lands south and east of the Misty Mountains. Tolkien introduces us to Lothlorien, land of the elves, where we meet the Ents, the Riders of Rohan, and Saruman the White in the fortress of Isengard. In brief outlines and penciled drafts dashed down on scraps of paper are the first entry of Galadriel; the earliest ides of the history of Gondor; and the original meeting of Aragorn with Eowyn, its significance destined to be wholly transformed. Conceptions of what lay ahead dissolve as the story takes its own paths, as in the account of the capture of Frodo and his rescue by Sam Gamgee from Minas Morgul, written long before J.R.R. Tolkien actually reached that point in the writing of The Lord of the Rings. A chief feature of the book is a full account of the original Map, with drawings of successive phases, which was long the basis and accompaniment of the emerging geography of Middle-earth. An appendix describes the Runic alphabets of the time, with illustrations of the forms and an analysis of the Runes used in the Book of Mazarbul found beside Balin's tomb in Moria.</span>
+                        <div class="cover">
+                            <img src="../images/2650B632-EEC6-46BF-8142-A1C94F2604D4-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Book of Lost Tales 1</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0345375211</span>
+                        <span class="description">THE BOOK OF LOST TALES, I, stands at the beginning of the entire conception of Middle-earth and Valinor. Here is the whole, glorious history of Middle-earth that J.R.R. Tolkien brought to mythic and dramatic life with his classic fantasy novels of the Ring Cycle.</span>
+                        <div class="cover">
+                            <img src="../images/18D2EEA6-9FD7-442C-A82F-0787DB2A1ED2-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The War of the Jewels: The Later Silmarillion, Part Two</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395710413</span>
+                        <span class="description">In volumes ten and eleven of The History of Middle-earth, Christopher Tolkien recounts from the original texts the evolution of his father's work on The Silmarillion, the legendary history of the Elder Days or First Age, from the completion of the Lord of the Rings in 1949 until J.R.R. Tolkien's death. In volume ten, Morgoth's Ring, the narrative was taken only as far as the natural dividing point in the work, when Morgoth destroyed the Trees of Light and fled from Valinor bearing the stolen Silmarils. In The War of the Jewels, the story returns to Middle-earth and the ruinous conflict of the High Elves and the Men who were their allies with the power of the Dark Lord. With the publication in this book of all of J.R.R. Tolkien's later narrative writing concerned with the last centuries of the First Age, the long history of The Silmarillion, from its beginnings in The Book of Lost Tales, is completed; the enigmatic state of the work at his death can now be understood. A chief element in The War of the Jewels is a major story of Middle-earth, now published for the first time - a continuation of the great "saga" of Turin Turambar and his sister Nienor, the children of Hurin the Steadfast. This is the tale of the disaster that overtook the forest people of Brethil when Hurin came among them after his release from long years of captivity in Angband, the fortress of Morgoth. The uncompleted text of the Grey Annals, the primary record of the War of the Jewels, is given in full; the geography of Beleriand is studied in detail, with redrawings of the final state of the map; and a long essay on the names and relations of all the peoples of Middle-earth shows more clearly than any writing yet published the close connection between the language and history in Tolkien's world. The text also provides new information, including some knowledge of the divine powers, the Valar.</span>
+                        <div class="cover">
+                            <img src="../images/BA11CD5B-CEDA-4EA5-953D-8FA93CC60E19-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Peoples of Middle-Earth</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0395827604</span>
+                        <span class="description">Throughout this vast and intricate mythology, says Publishers Weekly, "one marvels anew at the depth, breadth, and persistence of J.R.R. Tolkien's labor. No one sympathetic to his aims, the invention of a secondary universe, will want to miss this chance to be present at the creation." In this capstone to that creation, we find the chronology of Middle-earth's later Ages, the Hobbit genealogies, and the Western language or Common Speech. These early essays show that Tolkien's fertile imagination was at work on Middle-earth's Second and Third Ages long before he explored them in the Appendices to The Lord of the Rings . Here too are valuable writings from Tolkien's last years: " The New Shadow," in Gondor of the Fourth Age, and" Tal-elmar," the tale of the coming of the Nsmen-rean ships.</span>
+                        <div class="cover">
+                            <img src="../images/F1F5F698-1E6B-4A34-8ECD-811D51FE37F9-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Children of Hurin</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0618894640</span>
+                        <span class="description">The 'Great Tale' of The Children of HÚrin, set during the legendary time before The Lord of the Rings. Morgoth, the first Dark Lord, dwells in the vast fortress of Angband in the North; and within the shadow of the fear of Angband, and the war waged by Morgoth against the Elves, the fates of TÚrin and his sister NiËnor will be tragically entwined. Their brief and passionate lives are dominated by the elemental hatred that Morgoth bears them as the children of HÚrin, the man who dared to defy him to his face. Against them Morgoth sends his most formidable servant, Glaurung, a powerful spirit in the form of a huge wingless dragon of fire. Sardonic and mocking, Glaurung manipulates the fates of TÚrin and NiËnor by lies of diabolic cunning and guile, in an attempt to fulfil the curse of Morgoth.</span>
+                        <div class="cover">
+                            <img src="../images/914BA2DC-6B57-45AB-A287-496FED763ED3-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Legend of Sigurd and Gudrun</div>
+                        <span class="creator">J.R.R. Tolkien, Christopher Tolkien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0547273428</span>
+                        <span class="description">The Legend of Sigurd and Gudrún is a previously unpublished work by J.R.R. Tolkien, written while Tolkien was Professor of Anglo-Saxon at Oxford during the 1920s and 30s, before he wrote The Hobbit and The Lord of the Rings. It makes available for the first time Tolkien’s extensive retelling in English narrative verse of the epic Norse tales of Sigurd the Völsung and The Fall of the Niflungs. It includes an introduction by J.R.R. Tolkien, drawn from one of his own lectures on Norse literature, with commentary and notes on the poems by Christopher Tolkien.</span>
+                        <div class="cover">
+                            <img src="../images/09F277D0-DF69-4453-A7E6-29084B89F72E-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="details" onclick="hideDetails()">
+            <div id="detailscover"></div>
+            <div id="detailsheader">
+                <div id="detailstitle"></div>
+                <div id="detailscreator"></div>
+                <hr />
+            </div>
+            <div id="detailsbody"></div>
+            <div id="detailsfooter">
+                <hr />
+                <a id="searchinsideanchor" href="#">
+                    <img id="searchinside" src="../images/searchinside.png" alt="Search Inside" />
+                </a>
+            </div>
+        </div>
+        <!-- end details -->
+    </body>
+</html>
