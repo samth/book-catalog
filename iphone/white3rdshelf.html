@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta id="viewport" name="viewport" content="width=320; initial-scale=0.9; maximum-scale=0.9; user-scalable=no;" />
+        <title>Library</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script type="text/javascript" src="prototype.js"></script>
+        <script type="text/javascript" src="animator.js"></script>
+        <script type="text/javascript" src="library.js"></script>
+    </head>
+    <body>
+        <div id="libraryheader" style="width: 100%; height: 88px; background: url(../images/shelfheader.jpg)">
+            <div id="librarybanner">Library</div>
+            <div id="shelfnavigation">
+            <select class="shelf_selection" onchange="location.href = this.options[this.selectedIndex].value;"><option value="index.html" >Books</option><option value="movies.html" >Movies</option><option value="aboveprinter.html" >Above printer</option><option value="maes2ndshelf.html" >Mae's 2nd shelf</option><option value="maes3rdshelf.html" >Mae's 3rd shelf</option><option value="maestopshelf.html" >Mae's top shelf</option><option value="morenexttoprinter.html" >more next to printer</option><option value="nexttoprinter.html" >next to printer</option><option value="textbooks2ndfrombottomofwhiteshelf.html" >Textbooks - 2nd from bottom of white shelf</option><option value="textbooksbottomofwhiteshelf.html" >Textbooks-Bottom of white shelf</option><option value="tolkien.html" >Tolkien</option><option value="topwhiteshelf.html" >Top White Shelf</option><option value="white3rdshelf.html" selected="selected">White 3rd shelf</option><option value="white4thshelf.html" >White 4th shelf</option><option value="mystery.html" >Mystery</option><option value="textbooks.html" >textbooks</option></select>
+        </div>
+        </div>
+        <table id="mediatable" border="0" cellspacing="0" cellpadding="0" style="width: 100%; background-image: url(../images/shelfpattern.png)">
+            <tr id="collection">
+                <td>
+                    <div class="medium">
+                        <div class="title">Aristotle's on the Soul</div>
+                        <span class="creator">Aristotle</span>
+                        <span class="rating"></span>
+                        <span class="asin">0960287094</span>
+                        <span class="description"></span>
+                        <div class="cover">
+                            <img src="../images/C213404B-8989-4211-ADCA-8A53BAF7946C-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Nicomachean Ethics</div>
+                        <span class="creator">Aristotle</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872204642</span>
+                        <span class="description">Building on the strengths of the first edition, the second edition of the Irwin Nicomachean Ethics features a revised translation (without extensive editorial intervention), expanded notes (including a summary of the argument of each chapter), an expanded Introduction, and a revised glossary.<br />
+                            <br />
+                            Terence Irwin is Susan Linn Sage Professor of Philosophy, Cornell University.</span>
+                        <div class="cover">
+                            <img src="../images/EC6D75F5-C551-4C2C-B711-8FC5EC038397-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Aristotles Metaphysics</div>
+                        <span class="creator">Aristotle, H. G. Apostle</span>
+                        <span class="rating"></span>
+                        <span class="asin">0960287019</span>
+                        <span class="description"></span>
+                        <div class="cover">
+                            <img src="../images/419CFE21-853F-4187-8891-88011DC1C731-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Readings in Ancient Greek Philosophy: From Thales to Aristotle</div>
+                        <span class="creator">S. Marc Cohen, Patricia Curd, C. D. C. Reeve</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872203123</span>
+                        <span class="description">The second edition of this book builds on those strengths that have made the first edition the leading anthology for the teaching of ancient philosophy: it's additional 100 pages offer an even richer selection of Presocratic fragments, testimonia and dialogues of Plato — all in authoritative translations, skilfully edited and annotated for introductory students. Among the revisions is the addition — in its entirety — of Republic, as well as the death scene from Phaedo; nothing from the first edition has been deleted.</span>
+                        <div class="cover">
+                            <img src="../images/9E9129F9-040A-4121-87F8-B97A46EBFFDE-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Alfred Tarski: Life and Logic</div>
+                        <span class="creator">Anita Burdman Feferman, Solomon Feferman</span>
+                        <span class="rating"></span>
+                        <span class="asin">0521802407</span>
+                        <span class="description">Alfred Tarski, one of the greatest logicians of all time, is widely thought of as 'the man who defined truth'. His mathematical work on the concepts of truth and logical consequence are cornerstones of modern logic, influencing developments in philosophy, linguistics and computer science. Tarski was a charismatic teacher and zealous promoter of his view of logic as the foundation of all rational thought, a bon-vivant and a womanizer, who played the 'great man' to the hilt. Born in Warsaw in 1901 to Jewish parents, he changed his name and converted to Catholicism, but was never able to obtain a professorship in his home country. A fortuitous trip to the United States at the outbreak of war saved his life and turned his career around, even while it separated him from his family for years. By the war's end he was established as a professor of mathematics at the University of California, Berkeley. There Tarski built an empire in logic and methodology that attracted students and distinguished researchers from all over the world. From the cafes of Warsaw and Vienna to the mountains and deserts of California, this first full length biography places Tarski in the social, intellectual and historical context of his times and presents a frank, vivid picture of a personally and professionally passionate man, interlaced with an account of his major scientific achievements.</span>
+                        <div class="cover">
+                            <img src="../images/3BCDA0F3-46A4-4D61-B4D4-CFB11771A2AA-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Penguin Gandhi Reader</div>
+                        <span class="creator">Mohandas K. Gandhi, Mahatma Gandhi, Rudrangshu Mukherjee</span>
+                        <span class="rating"></span>
+                        <span class="asin">0140236864</span>
+                        <span class="description">The essential writings of one of the greatest statesmen and morally influential figures of the twentieth century Mohandas Karamchand Gandhi (1869-1948) was born in Porbander on the western coast of India. His childhood and early upbringing were undistinguished but as an adult he initiated and was involved in a series of novel forms of peaceful protests which established him as one of the most important leaders of the twentieth century and one whose message and relevance transcended national boundaries.<br />
+                            <br />
+                            This meticulously edited volume culled from the Collected Works of Gandhi contains a representative selection of his writings focusing on themes which were central to Gandhi s philosophy.<br />
+                            <br />
+                            The reader is divided into eight sections and discusses the following in detail: Gandhiji s complete rejection of what is known as modern civilization together with its materialistic nature; the doctrines of swaraj and swadeshi, which meant more to him than mere independence for the British; the creed of non-violence, the centrepiece of his political theory; his role in mass movements particularly in the Non-Co-operation Civil Disobedience and Quit India movements; his views on women and sex; his arguments against caste and untouchability; his thoughts on capitalism and socialism; his commitment to a united India; his firm belief in religious tolerance and finally, his lifelong struggle towards the attainment of both Home Rule and Self Rule.</span>
+                        <div class="cover">
+                            <img src="../images/7F7A06EB-450C-4732-B890-B7E2A496AE93-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Descartes' Metaphysical Physics</div>
+                        <span class="creator">Daniel Garber</span>
+                        <span class="rating"></span>
+                        <span class="asin">0226282198</span>
+                        <span class="description">In this first book-length treatment of Descartes' important and influential natural philosophy, Daniel Garber is principally concerned with Descartes' accounts of matter and motion—the joint between Descartes' philosophical and scientific interests. These accounts constitute the point at which the metaphysical doctrines on God, the soul, and body, developed in writings like the Meditations, give rise to physical conclusions regarding atoms, vacua, and the laws that matter in motion must obey.<br />
+                            <br />
+                            Garber achieves a philosophically rigorous reading of Descartes that is sensitive to the historical and intellectual context in which he wrote. What emerges is a novel view of this familiar figure, at once unexpected and truer to the historical Descartes.<br />
+                            <br />
+                            The book begins with a discussion of Descartes' intellectual development and the larger project that frames his natural philosophy, the complete reform of all the sciences. After this introduction Garber thoroughly examines various aspects of Descartes' physics: the notion of body and its identification with extension; Descartes' rejection of the substantial forms of the scholastics; his relation to the atomistic tradition of atoms and the void; the concept of motion and the laws of motion, including Descartes' conservation principle, his laws of the persistence of motion, and his collision law; and the grounding of his laws in God.</span>
+                        <div class="cover">
+                            <img src="../images/C7386ED5-CF8E-4D1A-975C-30A334F69C11-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Machiavelli; the Prince</div>
+                        <span class="creator">Christian. Gauss</span>
+                        <span class="rating"></span>
+                        <span class="asin">B000MOOZWS</span>
+                        <span class="description">The famous analysis of Statesmanship and Power.</span>
+                        <div class="cover">
+                            <img src="../images/9DB362AF-AB8E-44EA-8C23-8AED0E9F06C6-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Leviathan: With Selected Variants from the Latin Edition of 1668</div>
+                        <span class="creator">Thomas Hobbes, Edwin Curley</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872201775</span>
+                        <span class="description">This new edition of Hobbe's masterpiece is uniquely suited to meet the needs of both student and scholar. It offers a brilliant introduction by Edwin Curley, modernised spelling and punctuation of the text, and a key annotative feature found in no other edition: the inclusion, along with historical and interpretive notes, of the most significant variants between the English version of 1651 and the Latin version of 1668. A glossary of seventeenth century English terms and indexes of persons, subjects, and scriptural passages help make this the most thoughtfully conceived edition of Leviathan available.</span>
+                        <div class="cover">
+                            <img src="../images/32F3BF88-2863-40A6-A248-AC4710033518-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Hellenistic Philosophy: Introductory Readings</div>
+                        <span class="creator">Brad Inwood</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872203786</span>
+                        <span class="description">Enlarged to provide nearly a hundred pages of additional material, this new edition offers the first English translation of the account of Stoic ethics by Arius Didysmus, substantial new sources on Epicureanism, Stoicism, and Scepticism, expanded representation of Plutarch and Cicero, and a fuller representation of papyrological evidence. The editors maintain the consistency and accuracy that distinguished their translations in the first edition, while regrouping some material into larger, more thematically connected passages. This edition is further enhanced by a new more spacious page design.</span>
+                        <div class="cover">
+                            <img src="../images/48D298D6-3194-4530-8646-DEF3E40EE318-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Classical Thought</div>
+                        <span class="creator">Terence Irwin</span>
+                        <span class="rating"></span>
+                        <span class="asin">0192891774</span>
+                        <span class="description">Covering over 1000 years of classical philosophy from Homer to Saint Augustine, this accessible, comprehensive study details the major philosophies and philosophers of the period—the Pre-Socratics, Socrates, Plato, Aristotle, Stoicism, Epicureanism, and Neoplatonism. Though the emphasis is on questions of philosophical interest, particularly ethics, the theory of knowledge, philosophy of mind, and philosophical theology, Irwin includes discussions of the literary and historical background to classical philosophy as well as the work of other important thinkers—Greek tragedians, historians, medical writers, and early Christian writers. The most complete one-volume introduction to ancient philosophy available, the book will be an invaluable survey for students of philosophy and classics and general readers.</span>
+                        <div class="cover">
+                            <img src="../images/7414E4CE-C0A5-425E-86D5-913CDF6244D3-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Religion within the Limits of Reason Alone</div>
+                        <span class="creator">Immanuel Kant</span>
+                        <span class="rating"></span>
+                        <span class="asin">0061300675</span>
+                        <span class="description">A Monumental Figure of Western Thought Wrestles with the Question of God<br />
+                            <br />
+                            Immanuel Kant (1724-1804) is one of the most influential philosophers in the history of Western philosophy. His contributions have had a profound impact on almost every philosophical movement that followed him.<br />
+                            <br />
+                            Kant's teachings on religion were unorthodox in that they were based on rationality rather than revelation. Though logically proving God's existence might be impossible, it is morally reasonable to "act as if there be a God." His strictly rational approach was considered so scandalous that the King of Prussia forbid him to teach or write further on religious subjects, which Kant obeyed until the king's death.<br />
+                            <br />
+                            A work of major importance in the history of Western religious thought, Religion Within the Limits of Reason Alone represents a great philosopher's attempt to spell out the form and content of a type of religion grounded in moral reason and meeting the needs of an ethical life.</span>
+                        <div class="cover">
+                            <img src="../images/37C6D22D-9EF3-4C02-A79B-749DBCD296F3-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Kant: Groundwork of the Metaphysics of Morals</div>
+                        <span class="creator">Immanuel Kant, Mary Gregor</span>
+                        <span class="rating"></span>
+                        <span class="asin">0521626951</span>
+                        <span class="description">Immanuel Kant's Groundwork of the Metaphysics of Morals ranks alongside Plato's Republic and Aristotle's Nicomachean Ethics as one of the most profound and influential works in moral philosophy ever written. In Kant's own words its aim is to search for and establish the supreme principle of morality, the categorical imperative. This edition presents the acclaimed translation of the text by Mary Gregor, together with an introduction by Christine M. Korsgaard that examines and explains Kant's argument.</span>
+                        <div class="cover">
+                            <img src="../images/06A5C819-DA1E-4827-A2CB-0D70457A5452-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Locke: Two Treatises of Government</div>
+                        <span class="creator">John Locke, Peter Laslett</span>
+                        <span class="rating"></span>
+                        <span class="asin">0521357306</span>
+                        <span class="description">This is a new revised version of Dr. Laslett's standard edition of Two Treatises. First published in 1960, and based on an analysis of the whole body of Locke's publications, writings, and papers. The Introduction and text have been revised to incorporate references to recent scholarship since the second edition and the bibliography has been updated.</span>
+                        <div class="cover">
+                            <img src="../images/08C9A0A4-BABD-4C62-8E2A-FA26CD93732C-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">A Letter Concerning Toleration: Humbly Submitted</div>
+                        <span class="creator">John Locke, James Tully</span>
+                        <span class="rating"></span>
+                        <span class="asin">091514560X</span>
+                        <span class="description">Ever since humankind raised its head toward the heavens in search of universal understanding and spiritual fulfilment, wars, pogroms, persecution, prejudice, and contempt have been the means of resolving the many and varied disagreements that have arisen over matters religious. In his "Letter Concerning Toleration", Locke offers a compelling plea for freedom of conscience and religious expression. He outlines the limits of social and political incursion into the realm of personal belief or non-belief, discusses the dangers of mixing church and state, and strikes hard at those who would use the power of the state to fulfil religious or political goals.Rational persuasion is always to be encouraged in the hope that wayward souls may find a moral direction in life, but the use of force in such matters is unwarranted and unacceptable. Locke also addresses the question of denominational infighting and relations among the major religions. Talk of heresy and schism should be set aside in favour of understanding and co-operation to achieve mutually desirable social ends.</span>
+                        <div class="cover">
+                            <img src="../images/F909C4B8-FA50-4481-BD30-F8A97AF82711-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Persuasions of the Witch's Craft: Ritual Magic in Contemporary England</div>
+                        <span class="creator">T. M. Luhrmann</span>
+                        <span class="rating"></span>
+                        <span class="asin">0674663241</span>
+                        <span class="description">To find out why reasonable people are drawn to the seemingly bizarre practices of magic and witchcraft, Luhrmann immersed herself in the arcane world of Londoners who call themselves magicians. Her report is as fascinating as the esoteric world itself.</span>
+                        <div class="cover">
+                            <img src="../images/7F151FA3-9F3E-4503-B958-191707AD59FA-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Prince: Second Edition</div>
+                        <span class="creator">Niccolo Machiavelli</span>
+                        <span class="rating"></span>
+                        <span class="asin">0226500446</span>
+                        <span class="description">The most famous book on politics ever written, The Prince remains as lively and shocking today as when it was written almost five hundred years ago. Initially denounced as a collection of sinister maxims and a recommendation of tyranny, it has more recently been defended as the first scientific treatment of politics as it is practiced rather than as it ought to be practiced. Harvey C. Mansfield's brilliant translation of this classic work, along with the new materials added for this edition, make it the definitive version of The Prince, indispensable to scholars, students, and those interested in the dark art of politics.<br />
+                            <br />
+                            This revised edition of Mansfield's acclaimed translation features an updated bibliography, a substantial glossary, an analytic introduction, a chronology of Machiavelli's life, and a map of Italy in Machiavelli's time.<br />
+                            <br />
+                            "Of the other available [translations], that of Harvey C. Mansfield makes the necessary compromises between exactness and readability, as well as providing an excellent introduction and notes."—Clifford Orwin, The Wall Street Journal<br />
+                            <br />
+                            "Mansfield's work . . . is worth acquiring as the best combination of accuracy and readability."—Choice<br />
+                            <br />
+                            "There is good reason to assert that Machiavelli has met his match in Mansfield. . . . [He] is ready to read Machiavelli as he demands to be read—plainly and boldly, but also cautiously."—John Gueguen, The Sixteenth Century Journal</span>
+                        <div class="cover">
+                            <img src="../images/9550F7BF-2CD3-4D26-B883-39C0584EEFD5-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Medieval Russia, 980-1584</div>
+                        <span class="creator">Janet L. B. Martin</span>
+                        <span class="rating"></span>
+                        <span class="asin">0521368324</span>
+                        <span class="description">This book is a concise and comprehensive narrative history of Russia from 980 to 1584. Presenting developments in social and economic areas, as well as in political history, foreign relations, religion and culture, Janet Martin breaks away from the traditional view of Old Russia as a static, immutable culture, and emphasizes the "dynamic" and changing qualities of Russian society. She develops lines of argument that lead to clear conclusions concerning how and why the states and society of the lands of the Rus' assumed the forms and characteristics that they did.</span>
+                        <div class="cover">
+                            <img src="../images/2E47D965-4BCF-481B-9FA5-04DFFB19989E-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Marx-Engels Reader</div>
+                        <span class="creator">Karl Marx, Friedrich Engels, Robert C. Tucker</span>
+                        <span class="rating"></span>
+                        <span class="asin">039309040X</span>
+                        <span class="description">This revised and enlarged edition of the leading anthology provides the essential writings of Marx and Engels—those works necessary for an introduction to Marxist thought and ideology.</span>
+                        <div class="cover">
+                            <img src="../images/18412892-F11D-45B3-9F6E-E73FF75FC71B-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">On Liberty and Other Essays</div>
+                        <span class="creator">John Stuart Mill, John Gray</span>
+                        <span class="rating"></span>
+                        <span class="asin">0192833847</span>
+                        <span class="description">Collected here in a single volume for the first time, On Liberty, Utilitarianism, Considerations on Representative Government, and The Subjection of Women show John Stuart Mill applying his liberal utilitarian philosophy to a range of issues that remain vital today—the nature of ethics, the scope and limits of individual liberty, the merits of and costs of democratic government, and the place of women in society. In his Introduction John Gray describes these essays as applications of Mill's doctrine of the Art of Life, as set out in A System of Logic. Using the resources of recent scholarship, he shows Mill's work to be far richer and subtler than traditional interpretations allow.</span>
+                        <div class="cover">
+                            <img src="../images/6B4E2E31-9632-4BD6-8739-98D77BA94A26-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Plato's Parmenides: The Conversion of the Soul</div>
+                        <span class="creator">Mitchell H. Miller</span>
+                        <span class="rating"></span>
+                        <span class="asin">0271008032</span>
+                        <span class="description">The Parmenides is arguably the pivotal text for understanding the Platonic corpus as a whole. Miller offers a new reading that takes as its key the closely constructed dramatic context and mimetic irony of the dialogue."Miller's work is a splendid achievement— original, thorough, clear, deep and exciting. He blends literary sensitivity with analytical precision in a way that helps with just about everything in one of Plato's most obscure and difficult dialogues." —-Edward N. Lee, University of California, San Diego"Miller has much going for him. He has a deep understanding of Greek.... He is careful in following the arguments, and fresh and original in treating them.... We cannot do without Cornford and Allen; we now need Miller alongside them." —-John Ferguson, The Heythrop Journal"The Parmenides is one of the most obscure works in the history of Western thought. Yet this dialogue is of central importance in the development of Plato's theory of Forms, and we should be grateful to Miller for light in the darkness.... highly recommended." —-H.L. Shapiro, Choice"...one can appreciate why Miller's book is a success; he offers an interpretation according to which the dialogue is a unified piece of work that marks a turning point in Plato's metaphysics. Miller's writing is lucid and straightforward.... There are sustained discussions of Cornford, Cherniss, Vlastos, Owen, Brumbaugh, Allen, and Sayre in the footnotes. There is little doubt that the book represents a significant contribution." —-Kenneth Seeskin, Philosophy and Literature"Miller's commentary is an impressive achievement, combining extensive scholarship with unusual sensitivity to Plato's nuances, both literary and discursive. Both for its imaginative interpretation of the larger issues, and its careful analysis of the details, it will be of great value to anyone with an interest in this bewildering dialogue." —-Kenneth Dorter, Canadian Philosophical Reviews</span>
+                        <div class="cover">
+                            <img src="../images/3ECAA0EF-35C1-4D34-91D6-508156247027-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Holy Bible: King James Version</div>
+                        <span class="creator">Thomas Nelson</span>
+                        <span class="rating"></span>
+                        <span class="asin">0529064634</span>
+                        <span class="description">An inexpensive paperback Bible priced for purchase in large quantities.</span>
+                        <div class="cover">
+                            <img src="../images/C23694A6-789C-4A1E-A8EF-87E29A067242-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Nietzsche: The Birth of Tragedy and Other Writings</div>
+                        <span class="creator">Friedrich Nietzsche, Raymond Geuss, Ronald Speirs</span>
+                        <span class="rating"></span>
+                        <span class="asin">0521639875</span>
+                        <span class="description">The Birth of Tragedy is one of the seminal philosophical works of the modern period. The theories developed in this relatively short text have had a profound influence on the philosophy, literature, music and politics of the twentieth century. This edition presents a new translation by Ronald Speirs and an introduction by Raymond Geuss that sets the work in its historical and philosophical context. The volume also includes two essays on related topics that Nietzsche wrote during the same period.</span>
+                        <div class="cover">
+                            <img src="../images/FBE614B1-1812-40BA-8B22-91422DB3D9DB-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">On the Genealogy of Morals and Ecce Homo</div>
+                        <span class="creator">Friedrich Nietzsche, Walter Kaufmann</span>
+                        <span class="rating"></span>
+                        <span class="asin">0679724621</span>
+                        <span class="description">The great philosopher's major work on ethics, along with ECCE HOMO, Nietzche's remarkable review of his life and works. Translated by Walter Kaufmann.</span>
+                        <div class="cover">
+                            <img src="../images/EE2F1CCF-6886-445A-8919-0F085324BAE4-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">FOR LOVE OF COUNTRY</div>
+                        <span class="creator">Martha Craven Nussbaum, Joshua Cohen</span>
+                        <span class="rating"></span>
+                        <span class="asin">0807043133</span>
+                        <span class="description">For Love of Country is a rare forum: a real conversation among some of our most prominent intellectuals about an issue of urgent public importance. At the center of this lively and utterly readable debate book is Martha Nussbaumís passionate argument against patriotism. At a time when our connections and obligations to the rest of the world grow only stronger, we should reject patriotism as a parochial ideal, she says, and instead see ourselves first of all as "citizens of the world."<br />
+                            <br />
+                            Fifteen writers and thinkers respond to Nussbaum's piece in short, hard-hitting, often brilliant essays, acknowledging the power of her argument, but often defending patriotisms and other local commitments with an eloquence equal to Nussbaum's. We hear from an astonishing range of writers from Robert Pinsky to Cornel West to Gertrude Himmelfarb to Sissela Bok.<br />
+                            <br />
+                            This is contemporary American philosophy at its most relevant and readable. At a time when debates about crises in Bosnia or Somalia are dominated by politicians and military leaders, here are the voices of philosophers and poets, literary scholars and historians. A book of surprising insights and diversity, For Love of Country is especially written for a wide audience and is sure to spark debate.</span>
+                        <div class="cover">
+                            <img src="../images/B68723F4-E730-4527-AC4F-63795CD1133B-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Russia under the Old Regime: Second Edition</div>
+                        <span class="creator">Richard Pipes</span>
+                        <span class="rating"></span>
+                        <span class="asin">0140247688</span>
+                        <span class="description">Harvard Professor of Russian History Richard Pipes traces the evolution of the Russian state from the ninth century to the 1800s. Pipes analyzes the political behavior of the principal social groupingspeasantry, nobility, middle class, and clergyand their failure to stand up to the increasing absolutism of the czar. This is considered by many to be the definitive book about Russian society before the revolution. 3 maps.</span>
+                        <div class="cover">
+                            <img src="../images/CDDAF7D3-E233-460E-BF3D-C9A72700E112-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Meno</div>
+                        <span class="creator">Plato</span>
+                        <span class="rating"></span>
+                        <span class="asin">0915144247</span>
+                        <span class="description">(Aris and Phillips 1985)</span>
+                        <div class="cover">
+                            <img src="../images/717FD7DC-B57D-4B36-96EC-04EB361FDD76-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Plato Symposium</div>
+                        <span class="creator">Plato</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872200760</span>
+                        <span class="description">'A model of the kind of text one needs for lecture courses: the translation is extremely readable and made even more accessible by intelligent printing decisions (on dividing the text, spacing for clarification, etc.); the notes are kept to a minimum but appear when they are really needed for comprehension and are truly informative. And the introduction admirably presents both basic information and a sense of current scholarly opinion' - S G Nugent, Princeton University.</span>
+                        <div class="cover">
+                            <img src="../images/EAC0C13B-3E6A-4DA6-B9FE-3AA060E72936-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Republic Of Plato: Second Edition</div>
+                        <span class="creator">Plato</span>
+                        <span class="rating"></span>
+                        <span class="asin">0465069347</span>
+                        <span class="description">Long regarded as the most accurate rendering of Plato’s Republic that has yet been published, this widely acclaimed work is the first strictly literal translation of a timeless classic. This second edition includes a new introduction by Professor Bloom, whose careful translation and interpretation of The Republic was first published in 1968. In addition to the corrected text itself there is also a rich and valuable essayas well as indexeswhich will better enable the reader to approach the heart of Plato’s intention.</span>
+                        <div class="cover">
+                            <img src="../images/0176C962-B924-41E9-A66E-32F62DAC3294-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Parmenides</div>
+                        <span class="creator">Plato</span>
+                        <span class="rating"></span>
+                        <span class="asin">087220328X</span>
+                        <span class="description">This new translation of what may be Plato's most elusive dialogue provides a faithful rendering of the Greek text without sacrificing clarity in English. Gill's extensive introduction explores and elucidates the dialogue's central themes and offers a compelling interpretation of issues current in scholarly debates on the Parmenides. Also included are helpful notes, an Analysis of the deductions in Part II, and a select bibliography.</span>
+                        <div class="cover">
+                            <img src="../images/E939240E-0E88-4DFF-8762-6CFF7AA8F9D5-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Four Texts on Socrates: Plato's "Euthyphro," "Apology of Socrates," "Crito," and Aristophanes' "Clouds"</div>
+                        <span class="creator">Plato, Aristophanes</span>
+                        <span class="rating"></span>
+                        <span class="asin">0801485746</span>
+                        <span class="description">Widely adopted for classroom use, this book offers translations of four major works of ancient Greek literature which treat the life and thought of Socrates, focusing particularly on his trial and defense (three dialogues by Plato: Euthyphro, Apology of Socrates, and Crito) and on the charges against Socrates (Aristophanes' comedy Clouds).<br />
+                            <br />
+                            This is the only collection of the three Platonic dialogues that also includes Clouds, a work that is fundamental for understanding the thought of Socrates in relation to the Athenian political community and to Greek poetry. Thomas G. West's introduction provides an overview of the principal themes and arguments of the four works. There are extensive explanatory notes to the translations.<br />
+                            <br />
+                            In their translations, the Wests capture successfully the simplicity and vigor of straightforward Greek diction. They strive for as high a degree of accuracy as possible, subordinating concerns for elegance and smoothness to the goal of producing the most faithful and most reliable English versions of these texts. For this new edition, Thomas West has revised the introduction and updated the annotated bibliography, which includes the best of the secondary literature on Socrates and on the texts included in this book.</span>
+                        <div class="cover">
+                            <img src="../images/89F1E373-60A9-48D9-84F3-B1F6504B8506-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Plato: Complete Works</div>
+                        <span class="creator">Plato, John M. Cooper, D. S. Hutchinson</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872203492</span>
+                        <span class="description">Outstanding translations by leading contemporary scholars — many commissioned especially for this volume — are presented here in the first single edition to include the entire surviving corpus of works attributed to Plato in antiquity. In his introductory essay, John Cooper explains the presentation of these works, discusses questions concerning the chronology of their composition, comments on the dialogue form in which Plato wrote, and offers guidance on approaching the reading and study of Plato's works. Also included are concise introductions to each translation, meticulous annotation designed to serve both scholar and general reader, and a comprehensive index. This handsome volume offers fine paper and a high-quality Smyth-sewn cloth binding in a sturdy elegant edition.</span>
+                        <div class="cover">
+                            <img src="../images/C48737C6-3451-4890-A3FA-86796D569709-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Phaedrus</div>
+                        <span class="creator">Plato, Alexander Nehamas, Paul Woodruff</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872202208</span>
+                        <span class="description">Plato's dialogue Phaedo portrays Socrates in prison awaiting execution and discussing with his friends the fate of the soul after death. In this edition, consisting of introduction, text and commentary, Professor Rowe guides the reader through the difficulties—linguistic, literary and philosophical—of individual passages and of the dialogue as a whole. The comparative beginner is not neglected, but the commentary is intended for any student, classical scholar, or philosopher with an interest in the close reading of Plato.</span>
+                        <div class="cover">
+                            <img src="../images/DAAD1230-1021-44B0-BD0E-2CE12870F93C-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Cratylus</div>
+                        <span class="creator">Plato, C. D. C. Reeve</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872204162</span>
+                        <span class="description">The Cratylus, Plato's sole dialogue devoted to the relation between language and reality, is acknowledged to be one of his masterpieces. But owing to its often enigmatic content no more than a handful of passages from it have played a part in the global evaluation of Plato's philosophy. This new English translation by C D C Reeve is the first since 1926, and incomparably the most helpful and accessible now available. It opens up the Cratylus to all philosophically interested readers, as well as to cultural historians and to those whose primary concern is the history of linguistics. The full and lucid introduction does much to illuminate the internal dynamic of this important text and to explain its place within Plato's oeuvre.</span>
+                        <div class="cover">
+                            <img src="../images/15607401-271F-4E69-B642-BC98D88339E9-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Theaetetus</div>
+                        <span class="creator">Plato, Bernard Williams, Myles Burnyeat</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872201589</span>
+                        <span class="description">M J Levett's elegant translation of "Theaetetus", first published in 1928, is here revised by Myles Burnyeat to reflect contemporary standards of accuracy while retainingn the style, imagery, and idiomatic speech for which the Levett translation is unparalleled. Bernard Williams' concise introduction illuminates the powerful argument of this complex dialogue and illustrates its connections to contemporary metaphysical and epistemological concerns.</span>
+                        <div class="cover">
+                            <img src="../images/A01CDB20-E6F4-407A-9322-6EE1A71F06F1-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Essential Plotinus: Representative Treatises from the Enneads</div>
+                        <span class="creator">Plotinus, Elmer O'Brien</span>
+                        <span class="rating"></span>
+                        <span class="asin">0915144093</span>
+                        <span class="description">'The Essential Plotinus is a lifesaver. For many years my students in Greek and Roman Religion have depended on it to understand the transition from antiquity to the Middle Ages. The translation is crisp and clear, and the excerpts are just right for an introduction to Plotionus's many-layered view of the world and humankind's place in it' - F. E. Romer, University of Arizona</span>
+                        <div class="cover">
+                            <img src="../images/24F360FE-2E00-498A-A2B8-6F50351331F4-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Methods of Logic</div>
+                        <span class="creator">W. V. Quine</span>
+                        <span class="rating"></span>
+                        <span class="asin">0674571762</span>
+                        <span class="description">This widely used textbook of modern formal logic now offers a number of new features. Incorporating updated notations, selective answers to exercises, expanded treatment of natural deduction, and new discussions of predicate- functor logic and the affinities between higher set theory and the elementary logic of terms, Quine's new edition will serve admirably both for classroom and for independent use.</span>
+                        <div class="cover">
+                            <img src="../images/19F40254-A96D-441D-896F-59937728D6E1-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Law of Peoples: with "The Idea of Public Reason Revisited"</div>
+                        <span class="creator">John Rawls</span>
+                        <span class="rating"></span>
+                        <span class="asin">0674005422</span>
+                        <span class="description">This book consists of two parts: the essay "The Idea of Public Reason Revisited," first published in 1997, and "The Law of Peoples," a major reworking of a much shorter article by the same name published in 1993. Taken together, they are the culmination of more than fifty years of reflection on liberalism and on some of the most pressing problems of our times by John Rawls.<br />
+                            <br />
+                            "The Idea of Public Reason Revisited" explains why the constraints of public reason, a concept first discussed in Political Liberalism (1993), are ones that holders of both religious and non-religious comprehensive views can reasonably endorse. It is Rawls's most detailed account of how a modern constitutional democracy, based on a liberal political conception, could and would be viewed as legitimate by reasonable citizens who on religious, philosophical, or moral grounds do not themselves accept a liberal comprehensive doctrine—such as that of Kant, or Mill, or Rawls's own "Justice as Fairness," presented in A Theory of Justice (1971).<br />
+                            <br />
+                            The Law of Peoples extends the idea of a social contract to the Society of Peoples and lays out the general principles that can and should be accepted by both liberal and non-liberal societies as the standard for regulating their behavior toward one another. In particular, it draws a crucial distinction between basic human rights and the rights of each citizen of a liberal constitutional democracy. It explores the terms under which such a society may appropriately wage war against an "outlaw society," and discusses the moral grounds for rendering assistance to non-liberal societies burdened by unfavorable political and economic conditions.</span>
+                        <div class="cover">
+                            <img src="../images/0E6D317E-8DB6-458F-9959-396CE2A9CFCC-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Justice as Fairness: A Restatement</div>
+                        <span class="creator">John Rawls, Erin Kelly</span>
+                        <span class="rating"></span>
+                        <span class="asin">0674005112</span>
+                        <span class="description">This book originated as lectures for a course on political philosophy that Rawls taught regularly at Harvard in the 1980s. In time the lectures became a restatement of his theory of justice as fairness, revised in light of his more recent papers and his treatise Political Liberalism (1993). As Rawls writes in the preface, the restatement presents "in one place an account of justice as fairness as I now see it, drawing on all [my previous] works." He offers a broad overview of his main lines of thought and also explores specific issues never before addressed in any of his writings.<br />
+                            <br />
+                            Rawls is well aware that since the publication of A Theory of Justice in 1971, American society has moved farther away from the idea of justice as fairness. Yet his ideas retain their power and relevance to debates in a pluralistic society about the meaning and theoretical viability of liberalism. This book demonstrates that moral clarity can be achieved even when a collective commitment to justice is uncertain.</span>
+                        <div class="cover">
+                            <img src="../images/E29E40E4-2ECA-4AC9-936A-B2093EDD2E5C-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Get Your War on</div>
+                        <span class="creator">David Rees</span>
+                        <span class="rating"></span>
+                        <span class="asin">188712876X</span>
+                        <span class="description">The only anecdote to the saccharine 9/11 retrospectives flooding bookshops, this collection of hilarious comic strips - cleverly mixing clip-art of office workers with hip-hop inspired profanities - gives a platform to the fear, frustration, anger and distrust that many Americans and the rest of the world feel concerning U.S. foreign policy and big business in the post-September 11 world.</span>
+                        <div class="cover">
+                            <img src="../images/B67878D2-3D76-4ABB-8F32-42BEB4B78C56-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The First and Second Discourses</div>
+                        <span class="creator">Jean-Jacques Rousseau</span>
+                        <span class="rating"></span>
+                        <span class="asin">0312694407</span>
+                        <span class="description">One of the most respected translations of this key work of 18th-century philosophy, this text includes a brief introduction to the two works as well as abundant notes that range from simple explanations to speculative interpretations.</span>
+                        <div class="cover">
+                            <img src="../images/888C0BC1-BEAC-4B6D-A36A-0E24A03BD793-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Rousseau: 'The Social Contract' and Other Later Political Writings</div>
+                        <span class="creator">Jean-Jacques Rousseau, Victor Gourevitch</span>
+                        <span class="rating"></span>
+                        <span class="asin">0521424461</span>
+                        <span class="description">Volume II contains the later writings such as the Social Contract. The Social Contract was publicly condemned on publication causing Rousseau to flee. In exile he wrote both autobiographical and political works.</span>
+                        <div class="cover">
+                            <img src="../images/673F4D33-FCD8-4F53-9A18-C1C121BEA90D-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Political Writings</div>
+                        <span class="creator">Saint, Bishop of Hippo Augustine, Michael W. Tkacz</span>
+                        <span class="rating"></span>
+                        <span class="asin">0872202100</span>
+                        <span class="description">Taken from the complete works of St. Augustine, this collection has been arranged so as to give readers an organized, comprehensive view of the great African saint's political ideas. Included is an interpretive analysis by Dino Bigongiari.</span>
+                        <div class="cover">
+                            <img src="../images/8E3AFBA7-CB60-4FE3-AD5F-D031BA1E4A23-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Basic Rights</div>
+                        <span class="creator">Henry Shue</span>
+                        <span class="rating"></span>
+                        <span class="asin">0691029296</span>
+                        <span class="description">Which human rights ought to be the first honored and the last sacrificed? In the first systematic attempt by an American philosopher to address the issue of human rights as it relates to U.S. foreign policy, Henry Shue proposes an original conception of basic rights that illuminates both the nature of moral rights generally and the determination of which specific rights are the basic ones.</span>
+                        <div class="cover">
+                            <img src="../images/163ADA05-67DD-4105-B87C-D4A818F158D8-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Riddle of Scheherazade: And Other Amazing Puzzles</div>
+                        <span class="creator">Raymond Smullyan</span>
+                        <span class="rating"></span>
+                        <span class="asin">0156006065</span>
+                        <span class="description">“The most entertaining logician and set theorist who ever lived” (Martin Gardner) gives us an encore to The Lady or the Tiger?-a fiendishly clever, utterly captivating new collection of 225 brainteasers, puzzles, and paradoxes.</span>
+                        <div class="cover">
+                            <img src="../images/0D860567-B114-4D9A-82AA-FEE26E8E9CFA-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">The Tao Is Silent</div>
+                        <span class="creator">Raymond M. Smullyan</span>
+                        <span class="rating"></span>
+                        <span class="asin">0060674695</span>
+                        <span class="description">The Tao Is Silent Is Raymond Smullyan's beguiling and whimsical guide to the meaning and value of eastern philosophy to westerners.<br />
+                            <br />
+                            "To me," Writes Smullyan, "Taoism means a state of inner serenity combined with an intense aesthetic awareness. Neither alone is adequate; a purely passive serenity is kind of dull, and an anxiety-ridden awareness is not very appealing."<br />
+                            <br />
+                            This is more than a book on Chinese philosophy. It is a series of ideas inspired by Taoism that treats a wide variety of subjects about life in general. Smullyan sees the Taoist as "one who is not so much in search of something he hasn't, but who is enjoying what he has."<br />
+                            <br />
+                            Readers will be charmed and inspired by this witty, sophisticated, yet deeply religious author, whether he is discussing gardening, dogs, the art of napping, or computers who dream that they're human.</span>
+                        <div class="cover">
+                            <img src="../images/54266057-99A1-4710-A046-DD0932365DE6-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Thoreau: On Man and Nature</div>
+                        <span class="creator">Henry David Thoreau</span>
+                        <span class="rating"></span>
+                        <span class="asin">0442824289</span>
+                        <span class="description"></span>
+                        <div class="cover">
+                            <img src="../images/9795037C-E86F-444E-9E3E-F420E6C9C08B-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                    <div class="medium">
+                        <div class="title">Morality: An Introduction to Ethics</div>
+                        <span class="creator">Bernard Williams</span>
+                        <span class="rating"></span>
+                        <span class="asin">0521457297</span>
+                        <span class="description">Bernard Williams's remarkable essay on morality confronts the problems of writing moral philosophy, and offers a stimulating alternative to more systematic accounts that seem nevertheless to have left all the important issues somewhere off the page. Williams explains, analyzes and distinguishes a number of key positions, from the purely amoral to notions of subjective or relative morality, testing their coherence before going on to explore the nature of "goodness" in relation to responsibilities and choice, roles, standards, and human nature.</span>
+                        <div class="cover">
+                            <img src="../images/B076C637-54DF-4992-AA19-5D9A04223F5F-140.png" onclick="showDetails(this, event)" alt="" style="max-width: 110px; max-height: 110px" />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="details" onclick="hideDetails()">
+            <div id="detailscover"></div>
+            <div id="detailsheader">
+                <div id="detailstitle"></div>
+                <div id="detailscreator"></div>
+                <hr />
+            </div>
+            <div id="detailsbody"></div>
+            <div id="detailsfooter">
+                <hr />
+                <a id="searchinsideanchor" href="#">
+                    <img id="searchinside" src="../images/searchinside.png" alt="Search Inside" />
+                </a>
+            </div>
+        </div>
+        <!-- end details -->
+    </body>
+</html>
