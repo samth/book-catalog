@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="columns-per-page" content="1" />
+        <title>Library</title>
+        <script type="text/javascript">
+        if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/))
+            window.location.pathname = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/")) + "/iphone/index.html";
+        </script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="prototype.js" type="text/javascript"></script>
+        <script src="animator.js" type="text/javascript"></script>
+        <script src="library.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        <div id="details" class="details_hidden">
+            <div id="details_top">
+                <div id="drag_handle">&#8212;</div>
+                <div id="rating"></div>
+                <div id="title"></div>
+                <div id="creator"></div>
+            </div>
+            <div id="description"></div>
+        </div>
+        <div id="container">
+            <div id="overlay"></div>
+            <div id="header">
+                <div id="header_cap"></div>
+            </div>
+            <div id="collection_info_section">
+                <img src="images/library.png" id="librarybanner" alt="Library" />
+                <div id="collection_info">
+                    <div id="user_image">
+                        <img src="images/C661DC1B-68D1-40FF-8EAA-EB5C71B5392E.png" alt="" />
+                    </div>
+                    <div id="user_name">My Library</div>
+                    <div id="stats">
+                        <div id="total">Collection Total:<br />
+                            <span style="font-weight: bold">1320 Items</span>
+                        </div>
+                        <div id="updated">Last Updated:<br />
+                            <span style="font-weight: bold">Apr 14, 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="collection">
+                    <div id="media" onclick="deselect();">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="medium">
+                                            <div class="title">The Pig That Wants to Be Eaten: 100 Experiments for the Armchair Philosopher</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/EE9829E6-2662-43A9-B491-D674D7CD3274-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Julian Baggini</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Both entertaining and startling, The Pig That Wants to Be Eaten offers one hundred philosophical puzzles that stimulate thought on a host of moral, social, and personal dilemmas. Taking examples from sources as diverse as Plato and Steven Spielberg, author Julian Baggini presents abstract philosophical issues in concrete terms, suggesting possible solutions while encouraging readers to draw their own conclusions:<br />
+                                                <br />
+                                                Lively, clever, and thought-provoking, The Pig That Wants to Be Eaten is a portable feast for the mind that is sure to satisfy any intellectual appetite.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Spartina</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/281272F7-216C-4D00-9343-92CCDED99FC5-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">John Casey</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Dick Pierce, the flawed hero of Spartina, is torn by his love for his wife and sons, his passion for his mistress and his obsession with his 54-foot boat, Spartina." The National Book Award winner is in paperback for the first time.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Adventures in Medialand: Behind the News, Beyond the Pundits</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/3832C696-6F79-4035-9351-B28249F0204C-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Jeff Cohen, Norman Solomon</span>
+                                            <span class="rating"></span>
+                                            <span class="description">behind the news beyond the pundits</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Microserfs</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/22690286-0A42-45C1-92CD-59AA95D6B791-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Douglas Coupland</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Narrated in the form of a Powerbook entry by Dan Underwood, a computer programmer for Microsoft, this state-of-the-art novel about life in the '90s follows the adventures of six code-crunching computer whizzes. Known as "microserfs," they spend upward of 16 hours a day "coding" (writing software) as they eat "flat" foods (such as Kraft singles, which can be passed underneath closed doors) and fearfully scan the company email to see what the great Bill might be thinking and whether he is going to "flame" one of them.<br />
+                                                <br />
+                                                Seizing the chance to be innovators instead of cogs in the Microsoft machine, this intrepid bunch strike out on their own to form a high-tech start-up company named Oop! in Silicon Valley. Living together in a sort of digital flophouse —"Our House of Wayward Mobility" — they desperately try to cultivate well-rounded lives and find love amid the dislocated, subhuman whir and buzz of their computer-driven world.<br />
+                                                <br />
+                                                Funny, illuminating and ultimately touching, Microserfs is the story of one generation's very strange and claustrophobic coming of age.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Nickel and Dimed: On (Not) Getting By in America</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/95068D62-B95A-41AB-ABA7-BECFFA721680-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Barbara Ehrenreich</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The New York Times bestseller, and one of the most talked about books of the year, Nickel and Dimed has already become a classic of undercover reportage.<br />
+                                                <br />
+                                                Millions of Americans work for poverty-level wages, and one day Barbara Ehrenreich decided to join them. She was inspired in part by the rhetoric surrounding welfare reform, which promised that any job equals a better life. But how can anyone survive, let alone prosper, on $6 to $7 an hour? To find out, Ehrenreich moved from Florida to Maine to Minnesota, taking the cheapest lodgings available and accepting work as a waitress, hotel maid, house cleaner, nursing-home aide, and Wal-Mart salesperson. She soon discovered that even the "lowliest" occupations require exhausting mental and physical efforts. And one job is not enough; you need at least two if you intend to live indoors.<br />
+                                                <br />
+                                                Nickel and Dimed reveals low-wage America in all its tenacity, anxiety, and surprising generosity — a land of Big Boxes, fast food, and a thousand desperate strategies for survival. Instantly acclaimed for its insight, humor, and passion, this book is changing the way America perceives its working poor.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Dancing in the Streets: A History of Collective Joy</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/C730FF24-C219-4378-8826-416B168F9183-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Barbara Ehrenreich</span>
+                                            <span class="rating"></span>
+                                            <span class="description">"Fascinating . . . An admirably lucid, level-headed history of outbreaks of joy from Dionysus to the Grateful Dead."—Terry Eagleton, The Nation  Widely praised as "impressive" (The Washington Post Book World), "ambitious" (The Wall Street Journal), and "alluring" (The Los Angeles Times), Dancing in the Streets explores a human impulse that has been so effectively suppressed that we lack even a term for it: the desire for collective joy, historically expressed in revels of feasting, costuming, and dancing.<br />
+                                                 <br />
+                                                Drawing on a wealth of history and anthropology, Barbara Ehrenreich uncovers the origins of communal celebration in human biology and culture. From the earliest orgiastic Mesopotamian rites to the medieval practice of Christianity as a "danced religion" and the transgressive freedoms of carnival, she demonstrates that mass festivities have long been central to the Western tradition. In recent centuries, this festive tradition has been repressed, cruelly and often bloodily. But as Ehrenreich argues in this original, exhilarating, and ultimately optimistic book, the celebratory impulse is too deeply ingrained in human nature ever to be completely extinguished.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Inside Prime Time: With a New Introduction</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/CC0A23E7-6968-41A2-A246-9010C257A695-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Todd Gitlin</span>
+                                            <span class="rating"></span>
+                                            <span class="description">With a New Introduction<br />
+                                                Unsurpassed since its first publication, Inside Prime Time is the only book to take us behind the scenes to reveal how prime-time shows get on the air, stay on the air, and are shaped by the political and cultural climate of their times. Using more than 200 interviews with network executives, producers, writers, agents, and actors, as well as months of on-set investigation during the networks' more prosperous years, sociologist and critic Todd Gitlin takes us into a frantic world searching for hit shows. The result is both a lucid picture of the mechanics of prime time and a series of vivid stories of what succeeded or failed, and why. His analysis includes a blow-by-blow account of how the exceptional police series Hill Street Blues succeeded against all odds before eventually succumbing to formula itself.<br />
+                                                <br />
+                                                No one else has analyzed, as Gitlin has, the inside track that links executives and producers, or the efforts of worried advertisers, hopeful writers, and the lobbyists of the fundamentalist right to shape America's waking hours. In a new introduction, Gitlin describes the elements of the new television order, and argues that the proliferation of cable channels and the decline of the old networks have not fundamentally changed the business mentality that guides decisions about the entertainment that will fill Americans' leisure time.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Story of the University of Chicago</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/F405C18D-2C1B-4914-A015-8FB8848B361F-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Thomas Wakefield Goodspeed</span>
+                                            <span class="rating"></span>
+                                            <span class="description"></span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Mobility and Modernity: Migration in Germany, 1820-1989</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/560C5D28-0C16-4666-9784-0E016AF7C76E-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Steven Lawrence Hochstadt</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Mobility and Modernity uses voluminous German data on migrations over the past two centuries to demonstrate why conventional assumptions about the relationship between mobility and modernity must be revised.<br />
+                                                Thus far the changing total volume of migration has not been traced over a long period for any country. Unique migration registration statistics, both detailed and broadly geographical in coverage, allow the precise plotting of migration rates in Germany since 1820. Steve Hochstadt combines careful quantitative methods, easily understood numerical data, and social analysis based upon broad reading in German social history to show that current beliefs about the direction and timing of changes in German mobility, which have been based on late nineteenth-century anxieties about urbanization and industrialization, do not match the data.<br />
+                                                Migration rates in Germany rose continuously throughout the nineteenth century, and have fallen during the twentieth century. Mobility, Hochstadt argues, was not an unprecedented accompaniment to industrialization, but a traditional rural response to specific economic changes. Hochstadt's more precise analysis of urban in- and outmigration shows the mechanism of urbanization to have been the migration of families rather than the much greater, but also more circular, migration of single men and women.<br />
+                                                Hochstadt demonstrates the importance of examining historical behavior, powerfully justifying the methods of historical demography as a path to social understanding. The data and specific conclusions are German, but the methods and reinterpretaion of migration history have much wider application, both to other modern European nations and to currently developing countries. Those who study the modern social history of Europe, the mechanisms that formed urban working classes, and the methods of historical demography will be interested in Hochstadt's work.<br />
+                                                Steven Hochstadt was awarded the Social Science History Association's Allan Sharlin Memorial Award in 2000 for Mobility and Modernity. He is Associate Professor of History, Bates College.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Metamagical Themas: Questing For The Essence Of Mind And Pattern</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/BF6BC131-8FAD-49C3-8C4D-0555CCF11F2C-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Douglas Hofstadter</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Hofstadter’s collection of quirky essays is unified by its primary concern: to examine the way people perceive and think.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Brave New World</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/7367CCC8-BBE8-401D-AB38-009AD0F9A51D-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Aldous Huxley</span>
+                                            <span class="rating"></span>
+                                            <span class="description">A fantasy of the future that sheds a blazing critical light on the present—considered to be Aldous Huxley's most enduring masterpiece.<br />
+                                                <br />
+                                                "Mr. Huxley is eloquent in his declaration of an artist's faith in man, and it is his eloquence, bitter in attack, noble in defense, that, when one has closed the book, one remembers."<br />
+                                                —Saturday Review of Literature<br />
+                                                <br />
+                                                "A Fantastic racy narrative, full of much excellent satire and literary horseplay."<br />
+                                                —Forum<br />
+                                                <br />
+                                                "It is as sparkling, provocative, as brilliant, in the appropriate sense, as impressive ads the day it was published. This is in part because its prophetic voice has remained surprisingly contemporary, both in its particular forecasts and in its general tone of semiserious alarm. But it is much more because the book succeeds as a work of art...This is surely Huxley's best book."<br />
+                                                —Martin Green</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Murder Room</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/49B20952-21A2-46E8-8D14-3F0F60371B31-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">P. D. James</span>
+                                            <span class="rating"></span>
+                                            <span class="description">National Bestseller <br />
+                                                <br />
+                                                Murders present meet murders past in P.D. James’s latest harrowing, thought-provoking thriller.<br />
+                                                <br />
+                                                Commander Adam Dalgliesh is already acquainted with the Dupayne—a museum dedicated to the interwar years, with a room celebrating the most notorious murders of that time—when he is called to investigate the killing of one of the family trustees. He soon discovers that the victim was seeking to close the museum against the wishes of the fellow trustees and the Dupayne's devoted staff.  Everyone, it seems, has something to gain from the crime.  When it becomes clear that the murderer has been inspired by the real-life crimes from the murder room—and is preparing to kill again—Dalgliesh knows that to solve this case he has to get into the mind of a ruthless killer.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Buddhism: A Very Short Introduction</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/31822280-772A-4032-8C78-54F01D6BC2FB-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Damien Keown</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This accessible volume covers both the teachings of the Buddha and the integration of Buddhism into daily life. What are the distinctive features of Buddhism? What or who is the Buddha, and what are his teachings? How has Buddhist thought developed over the centuries, and how can contemporary dilemmas be faced from a Buddhist perspective? Words such as "karma" and "nirvana" have entered our vocabulary, but what do they really mean? Keown has taught Buddhism at an introductory level for many years, and in this book he provides a lively, challenging response to these frequently asked questions.<br />
+                                                <br />
+                                                About the Series:<br />
+                                                <br />
+                                                Oxford's Very Short Introductions series offers concise and original introductions to a wide range of subjects—from Islam to Sociology, Politics to Classics, Literary Theory to History, and Archaeology to the Bible. Not simply a textbook of definitions, each volume in this series provides trenchant and provocative—yet always balanced and complete—discussions of the central issues in a given discipline or field. Every Very Short Introduction gives a readable evolution of the subject in question, demonstrating how the subject has developed and how it has influenced society. Eventually, the series will encompass every major academic discipline, offering all students an accessible and abundant reference library. Whatever the area of study that one deems important or appealing, whatever the topic that fascinates the general reader, the Very Short Introductions series has a handy and affordable guide that will likely prove indispensable.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Into Thin Air: A Personal Account of the Mt. Everest Disaster</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/4DAC6E78-AF73-4D24-927D-2BCFE07AE9F3-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Jon Krakauer</span>
+                                            <span class="rating"></span>
+                                            <span class="description">National Bestseller <br />
+                                                <br />
+                                                A bank of clouds was assembling on the not-so-distant horizon, but journalist-mountaineer Jon Krakauer, standing on the summit of Mt. Everest, saw nothing that "suggested that a murderous storm was bearing down." He was wrong. The storm, which claimed five lives and left countless more—including Krakauer's—in guilt-ridden disarray, would also provide the impetus for Into Thin Air, Krakauer's epic account of the May 1996 disaster.<br />
+                                                <br />
+                                                By writing Into Thin Air, Krakauer may have hoped to exorcise some of his own demons and lay to rest some of the painful questions that still surround the event. He takes great pains to provide a balanced picture of the people and events he witnessed and gives due credit to the tireless and dedicated Sherpas. He also avoids blasting easy targets such as Sandy Pittman, the wealthy socialite who brought an espresso maker along on the expedition. Krakauer's highly personal inquiry into the catastrophe provides a great deal of insight into what went wrong. But for Krakauer himself, further interviews and investigations only lead him to the conclusion that his perceived failures were directly responsible for a fellow climber's death. Clearly, Krakauer remains haunted by the disaster, and although he relates a number of incidents in which he acted selflessly and even heroically, he seems unable to view those instances objectively. In the end, despite his evenhanded and even generous assessment of others' actions, he reserves a full measure of vitriol for himself.<br />
+                                                <br />
+                                                This updated trade paperback edition of Into Thin Air includes an extensive new postscript that sheds fascinating light on the acrimonious debate that flared between Krakauer and Everest guide Anatoli Boukreev in the wake of the tragedy.  "I have no doubt that Boukreev's intentions were good on summit day," writes Krakauer in the postscript, dated August 1999. "What disturbs me, though, was Boukreev's refusal to acknowledge the possibility that he made even a single poor decision. Never did he indicate that perhaps it wasn't the best choice to climb without gas or go down ahead of his clients." As usual, Krakauer supports his points with dogged research and a good dose of humility. But rather than continue the heated discourse that has raged since Into Thin Air's denouncement of guide Boukreev, Krakauer's tone is conciliatory; he points most of his criticism at G. Weston De Walt, who coauthored The Climb, Boukreev's version of events. And in a touching conclusion, Krakauer recounts his last conversation with the late Boukreev, in which the two weathered climbers agreed to disagree about certain points. Krakauer had great hopes to patch things up with Boukreev, but the Russian later died in an avalanche on another Himalayan peak, Annapurna I.<br />
+                                                <br />
+                                                In 1999, Krakauer received an Academy Award in Literature from the American Academy of Arts and Letters—a prestigious prize intended "to honor writers of exceptional accomplishment."  According to the Academy's citation, "Krakauer combines the tenacity and courage of the finest tradition of investigative journalism with the stylish subtlety and profound insight of the born writer.  His account of an ascent of Mount Everest has led to a general reevaluation of climbing and of the commercialization of what was once a romantic, solitary sport; while his account of the life and death of Christopher McCandless, who died of starvation after challenging the Alaskan wilderness, delves even more deeply and disturbingly into the fascination of nature and the devastating effects of its lure on a young and curious mind."</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Winter Hiking and Camping</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/9EA13124-031F-4225-ACFB-594BA437D5D1-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Michael Lanza</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The outdoor world in its frozen state can take you into a new realm of pleasure where you can enjoy silence, solitude, and a landscape that will redefine "white" in your mind. Learn the skills to help you enjoy wintertime safely and comfortably. Part one covers everything you need to know to take day trips hiking, snowshoeing, or easy ski touring. It includes choosing gear, expanded food choices while "hiking in a freezer," navigation challenges in ice and snow, and avoiding cold-weather dangers. Part two covers making camp in winter, including keeping dry and warm in a tent or snow shelter, winter cooking techniques, and what to pack in your winter first-aid kit.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Handbook of Russian Prepositions</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/54AFEB61-CF6D-48FA-89C2-9AB60306D77F-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Frank Miller</span>
+                                            <span class="rating"></span>
+                                            <span class="description">A reference guide in Russian about Russian prepositions with exercises for guided practice.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Six Easy Pieces: Easy Rawlins Stories</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/99063313-D096-486E-88C5-2EFE30A97F53-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Walter Mosley</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Easy should be living a contented life, with steady work as senior head custodian of Sojourner Truth High School, and a loving family. But happiness is as elusive for Easy as smoke in shadows. Easy's the man folks seek out when they can't take their problems to anyone else. Trading favors and investigating cases of arson, murder, missing persons, and false accusations, it's hard to steer clear of trouble. Easy walks the line in this must-have collection from bestselling, award-winning author Walter Mosley.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Maine Beautiful</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/69A8F806-94BB-4BC6-AA20-0CA8A6F43344-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Wallace Nutting</span>
+                                            <span class="rating"></span>
+                                            <span class="description">1924. Another of the author's illustrated volumes on the States Beautiful. The author spent twelve years of his childhood in Maine and as a result professes to a deeper love for Maine than that which he feels for any other state. This is a pictorial representation of beauty spots in Maine, and are in no respect a history. See other titles by this author available from Kessinger Publishing.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Power, Faith, and Fantasy: America in the Middle East: 1776 to the Present</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/DA189584-1B5E-4565-B1FD-D99BFC67C737-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Michael B. Oren</span>
+                                            <span class="rating"></span>
+                                            <span class="description">“Will shape our thinking about America and the Middle East for years.”—Christopher Dickey, NewsweekThis best-selling history is the first fully comprehensive history of America’s involvement in the Middle East from George Washington to George W. Bush. As Niall Ferguson writes, “If you think America’s entanglement in the Middle East began with Roosevelt and Truman, Michael Oren’s deeply researched and brilliantly written history will be a revelation to you, as it was to me. With its cast of fascinating characters—earnest missionaries, maverick converts, wide-eyed tourists, and even a nineteenth-century George Bush—Power, Faith, and Fantasy is not only a terrific read, it is also proof that you don’t really understand an issue until you know its history.” 68 black-and-white photographs, 4 maps</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">A Mighty Fortress: A New History of the German People</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D9E8A17D-F3F3-4933-9FB5-67CB2E288551-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Steven Ozment</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The word "German" was being used by the Romans as early as the mid–first century B.C. to describe tribes in the eastern Rhine valley. Nearly two thousand years later, the richness and complexity of German history have faded beneath the long shadow of the country's darkest hour in World War II. Now, award-winning historian Steven Ozment, whom The New Yorker has hailed as "a splendidly readable scholar," gives us the fullest portrait possible in this sweeping, original, and provocative history of the German people, from antiquity to the present, holding a mirror up to an entire civilization — one that has been alternately Western Europe's most successful and most perilous.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Mayflower: A Story of Courage, Community, and War</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/47359F86-723F-4A65-8BB9-063AAEF8C859-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Nathaniel Philbrick</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Nathaniel Philbrick became an internationally renowned author with his National Book Award? winning In the Heart of the Sea, hailed as ?spellbinding? by Time magazine. In Mayflower, Philbrick casts his spell once again, giving us a fresh and extraordinarily vivid account of our most sacred national myth: the voyage of the Mayflower and the settlement of Plymouth Colony. From the Mayflower?s arduous Atlantic crossing to the eruption of King Philip?s War between colonists and natives decades later, Philbrick reveals in this electrifying history of the Pilgrims a fifty-five-year epic, at once tragic and heroic, that still resonates with us today.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Harry Potter and the Order of the Phoenix</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/E4569BF6-050B-4B46-B688-9942823CCBDA-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">J. K. Rowling</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The next volume in the thrilling, moving, bestselling Harry Potter series will reach readers June 21, 2003 — and it's been worth the wait!<br />
+                                                <br />
+                                                We could tell you, but then we'd have to Obliviate your memory.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Harry Potter and the Half-Blood Prince</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/F5DE8EBA-C970-405F-88B6-27ED3CC656CB-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">J. K. Rowling</span>
+                                            <span class="rating"></span>
+                                            <span class="description">As the Harry Potter sequence draws to a close, Harry's most dangerous adventure yet is just beginning . . . and it starts July 16, 2005.<br />
+                                                <br />
+                                                We could tell you, but then we'd have to Obliviate your memory.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Harry Potter and the Deathly Hallows</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/12A3C16F-4EF4-4958-B8D9-18DB9C3F71C3-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">J. K. Rowling</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The magnificent final book in J. K. Rowling's seven-part saga comes to readers July 21, 2007.<br />
+                                                <br />
+                                                You'll find out July 21!</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Harry Potter and the Prisoner of Azkaban</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/B4BA07C3-3DFD-4DC7-968D-042E5AC70018-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">J.K. Rowling</span>
+                                            <span class="rating"></span>
+                                            <span class="description">During his third year at Hogwarts School for Witchcraft and Wizardry, Harry Potter must confront the devious and dangerous wizard responsible for his parents' deaths.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Lend Me Your Ears: Great Speeches In History</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/E8E6B303-4F64-494B-9582-2FCA8908F02F-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">William Safire</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Great book for learning how to give a speech</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Philosophical Dictionary</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/2409CCF8-138E-4431-82B8-2ABB1B883AF7-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Francois Voltaire</span>
+                                            <span class="rating"></span>
+                                            <span class="description">"Voltaire's Philosophical Dictionary", first published in 1764, is a series of short, radical essays - alphabetically arranged - that form a brilliant and bitter analysis of the social and religious conventions that then dominated eighteenth-century French thought. One of the masterpieces of the Enlightenment, this enormously influential work of sardonic wit - more a collection of essays arranged alphabetically, than a conventional dictionary - considers such diverse subjects as Abraham and Atheism, Faith and Freedom of Thought, Miracles and Moses. Repeatedly condemned by civil and religious authorities, Voltaire's work argues passionately for the cause of reason and justice, and criticizes Christian theology and contemporary attitudes towards war and society - and claims, as he regards the world around him: 'common sense is not so common'.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Medieval Russia's Epics, Chronicles, and Tales</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/F3C5FDFB-87F3-4B7E-B231-6220A9DD0141-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Serge A. Zenkovsky</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Rear cover notes: "The medieval period in Russia lasted from the eleventh through the seventeenth century, and with the possible exception of the Lay of Igor's Campaign the literature of these early centuries is almost completely unknown to the public that reads so enthusiastically the works of Pushkin, Gogol, Dostoevsky, Tolstoy, and Chekhov. First published in 1963, this unique and pioneering anthology has been continuously used as an invaluable text in the field of Russian studies, for it presented over sixty selections from the finest of Russia's medieval authors, and much of the material published in the anthology had never before been available in English. In the light of recent scholarship, the author has completely revised the text. He has also enlarged the book by adding almost one hundred pages of new material, including the following: Sviatoslav's Early Campaigns; The Siege of Kiev and Olga's Death; Vladimir Monomakh: Instruction to His Children; Tale of the Life and Courage of the Pious and Great Prince Alexander [Nevsky]; Narrative of the Pious Prince Dovmont and His Courage; The Writing of Daniil the Prisoner; Orison on the Life and Death of Grand Prince Dmitry Ivanovich; Afanasy Nikitin's Journey Across Three Seas; Ivan Funikov: Message of a Nobleman to a Nobleman; Epic of Sukhan; Simeon Polotsky: Excerpt from Ode on the Birth of Peter I; Simeon Polotsky: The Law; Simeon Polotsky: The Merchant Class; Tsar Alexis Mikhailovich: The Rules of Falconry. In addition to a comprehensive introduction, the editor has prefaced each selection with detailed information about its literary and historical background, and has included a glossary and brief chronology of Russian history and culture."</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- End media -->
+                </div>
+                <!-- End collection -->
+                <div id="sidebar">
+                    <div class="navigation_header"></div>
+                    
+                    <div class="shelf_selection"><a class="shelf" href="index.html">Books</a><a class="shelf" href="movies.html">Movies</a><a class="shelf" href="aboveprinter.html">Above printer</a><a class="shelf" href="cookbooks.html">cookbooks</a><a class="shelf" href="getridof.html">Get rid of?</a><a class="shelf" href="maes2ndshelf.html">Mae's 2nd shelf</a><a class="shelf" href="maes3rdshelf.html">Mae's 3rd shelf</a><a class="shelf" href="maestopshelf.html">Mae's top shelf</a><a class="shelf" href="morenexttoprinter.html">more next to printer</a><a class="shelf" href="nexttoprinter.html">next to printer</a><a class="shelf" href="nightstand.html">nightstand</a><a class="shelf" href="samsnightstand.html">Sam's night stand</a><a class="shelf" href="textbooks2ndfrombottomofwhiteshelf.html">Textbooks - 2nd from bottom of white shelf</a><a class="shelf" href="textbooksbottomofwhiteshelf.html">Textbooks-Bottom of white shelf</a><a class="shelf" href="tolkien.html">Tolkien</a><a class="shelf" href="topwhiteshelf.html">Top White Shelf</a><a class="shelf" href="trophyshelf.html">trophy shelf</a><a class="shelf" href="underbearbottomshelf.html">under bear bottom shelf</a><a class="shelf" href="underbearsecondshelf.html">under bear second shelf</a><a class="shelf selected" href="underbeartopshelf.html">under bear top shelf</a><a class="shelf" href="underwindow.html">under window</a><a class="shelf" href="white3rdshelf.html">White 3rd shelf</a><a class="shelf" href="white4thshelf.html">White 4th shelf</a><a class="shelf" href="mystery.html">Mystery</a><a class="shelf" href="outdoors.html">outdoors</a><a class="shelf" href="textbooks.html">textbooks</a></div>
+                    <div class="navigation_footer"></div>
+                </div>
+                <!-- End sidebar -->
+                <div style="clear: both;"></div>
+            </div>
+            <!-- End content -->
+            <div id="footer">
+                <a href="http://www.delicious-monster.com">
+                    <img src="images/monster.png" alt="" />
+                     Made with Delicious Library
+                </a>
+                <p></p>
+            </div>
+            <!-- End footer -->
+        </div>
+        <!-- End container -->
+    </body>
+</html>

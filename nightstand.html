@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="columns-per-page" content="1" />
+        <title>Library</title>
+        <script type="text/javascript">
+        if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/))
+            window.location.pathname = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/")) + "/iphone/index.html";
+        </script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="prototype.js" type="text/javascript"></script>
+        <script src="animator.js" type="text/javascript"></script>
+        <script src="library.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        <div id="details" class="details_hidden">
+            <div id="details_top">
+                <div id="drag_handle">&#8212;</div>
+                <div id="rating"></div>
+                <div id="title"></div>
+                <div id="creator"></div>
+            </div>
+            <div id="description"></div>
+        </div>
+        <div id="container">
+            <div id="overlay"></div>
+            <div id="header">
+                <div id="header_cap"></div>
+            </div>
+            <div id="collection_info_section">
+                <img src="images/library.png" id="librarybanner" alt="Library" />
+                <div id="collection_info">
+                    <div id="user_image">
+                        <img src="images/C661DC1B-68D1-40FF-8EAA-EB5C71B5392E.png" alt="" />
+                    </div>
+                    <div id="user_name">My Library</div>
+                    <div id="stats">
+                        <div id="total">Collection Total:<br />
+                            <span style="font-weight: bold">1320 Items</span>
+                        </div>
+                        <div id="updated">Last Updated:<br />
+                            <span style="font-weight: bold">Apr 14, 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="collection">
+                    <div id="media" onclick="deselect();">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="medium">
+                                            <div class="title">How to Photograph Absolutely Everything: Successful Pictures From Your Digital Camera</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/4102A5ED-6BF4-443C-9444-34AB6DA57299-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Tom Ang</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This paperback edition of How To Photograph Absolutely Everything by renowned photographer, author, and broadcaster Tom Ang, delivers exactly what the title promises. Avoiding intimidating technical jargon, he explains the basic elements of photography - light, color, composition, and focus - then goes on to show how to make them work for you. From still lifes to children's parties, thunderstorms to sunsets, close-ups to panoramas, every photographic subject, technique, and challenge is covered. Using step-by-step photographs and instructions, Tom shows you how to take the best possible picture in any situation. Want to photograph city lights at night, animals in action, a family portrait? Tom makes it easy. Employing a user-friendly "recipe" formula, he shows you the best approach for each subject, gives expert tips on improving an image, and tells you how to set up your camera - so you really can't go wrong. Inspiring galleries at the end of each section describe alternative techniques to try for every subject. There are also tips on basic post-production, showing how to crop, improve color and contrast, and remove unwanted elements of an image. How to Photograph Absolutely Everything guarantees to make a better, more confident photographer of absolutely everyone who reads it.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">March of the Penguins: Companion to the Major Motion Picture</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/1D91DFE3-7A61-46C0-93A1-7BE824DA0226-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Luc Jacquet</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This winning combination of vivid photographs and informative, inspiring text is the companion volume to the extraordinary surprise hit film deemed “Irresistible” by Entertainment Weekly. Timed perfectly for the holidays and the November release of the DVD!<br />
+                                                <br />
+                                                Read the incredible, endearing story of the Emporer penguins’ yearly Antarctic odyssey and the long months of endurance, self-sacrifice and love as they raise a new generation of chicks.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Savage Summit: The Life and Death of the First Women of K2</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/A0763E3A-8297-42AA-BDB4-19543B0F6825-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Jennifer Jordan</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Though not as tall as Everest, the "Savage Mountain" is far more dangerous. Located on the border of China and Pakistan, K2 has some of the harshest climbing conditions in the world. Ninety women have scaled Everest but of the six women who reached the summit of K2, three lost their lives on the way back down the mountain and two have since died on other climbs.<br />
+                                                <br />
+                                                In Savage Summit, Jennifer Jordan shares the tragic, compelling, inspiring, and extraordinary true stories of a handful of courageous women — mothers and daughters, wives and lovers, poets and engineers — who defeated this formidable mountain yet ultimately perished in pursuit of their dreams.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Fire</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/80F71BB3-6498-4B47-AF32-9AE3F2CB2E25-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Sebastian Junger</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Forest fires, terrorism, war: explorations of danger by the author of The Perfect Storm.For readers and viewers of The Perfect Storm, opening this long-awaited new work by Sebastian Junger will be like stepping off the deck of the Andrea Gail and into the inferno of a fire burning out of control in the steep canyons of Idaho. Here is the same meticulous prose brought to bear on the inner workings of a terrifying elemental force; here is a cast of characters risking everything in an effort to bring that force under control.<br />
+                                                <br />
+                                                Few writers have been to so many desperate corners of the globe as has Sebastian Junger; fewer still have provided such starkly memorable evocations of characters and events. From the murderous mechanics of the diamond trade in Sierra Leone to the logic of guerrilla warfare in Afghanistan and the forensics of genocide in Kosovo, this new collection of Junger's nonfiction will take you places you wouldn't dream of going to on your own.</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- End media -->
+                </div>
+                <!-- End collection -->
+                <div id="sidebar">
+                    <div class="navigation_header"></div>
+                    
+                    <div class="shelf_selection"><a class="shelf" href="index.html">Books</a><a class="shelf" href="movies.html">Movies</a><a class="shelf" href="aboveprinter.html">Above printer</a><a class="shelf" href="cookbooks.html">cookbooks</a><a class="shelf" href="getridof.html">Get rid of?</a><a class="shelf" href="maes2ndshelf.html">Mae's 2nd shelf</a><a class="shelf" href="maes3rdshelf.html">Mae's 3rd shelf</a><a class="shelf" href="maestopshelf.html">Mae's top shelf</a><a class="shelf" href="morenexttoprinter.html">more next to printer</a><a class="shelf" href="nexttoprinter.html">next to printer</a><a class="shelf selected" href="nightstand.html">nightstand</a><a class="shelf" href="samsnightstand.html">Sam's night stand</a><a class="shelf" href="textbooks2ndfrombottomofwhiteshelf.html">Textbooks - 2nd from bottom of white shelf</a><a class="shelf" href="textbooksbottomofwhiteshelf.html">Textbooks-Bottom of white shelf</a><a class="shelf" href="tolkien.html">Tolkien</a><a class="shelf" href="topwhiteshelf.html">Top White Shelf</a><a class="shelf" href="trophyshelf.html">trophy shelf</a><a class="shelf" href="underbearbottomshelf.html">under bear bottom shelf</a><a class="shelf" href="underbearsecondshelf.html">under bear second shelf</a><a class="shelf" href="underbeartopshelf.html">under bear top shelf</a><a class="shelf" href="underwindow.html">under window</a><a class="shelf" href="white3rdshelf.html">White 3rd shelf</a><a class="shelf" href="white4thshelf.html">White 4th shelf</a><a class="shelf" href="mystery.html">Mystery</a><a class="shelf" href="outdoors.html">outdoors</a><a class="shelf" href="textbooks.html">textbooks</a></div>
+                    <div class="navigation_footer"></div>
+                </div>
+                <!-- End sidebar -->
+                <div style="clear: both;"></div>
+            </div>
+            <!-- End content -->
+            <div id="footer">
+                <a href="http://www.delicious-monster.com">
+                    <img src="images/monster.png" alt="" />
+                     Made with Delicious Library
+                </a>
+                <p></p>
+            </div>
+            <!-- End footer -->
+        </div>
+        <!-- End container -->
+    </body>
+</html>

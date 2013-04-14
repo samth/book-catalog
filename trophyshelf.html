@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="columns-per-page" content="1" />
+        <title>Library</title>
+        <script type="text/javascript">
+        if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/))
+            window.location.pathname = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/")) + "/iphone/index.html";
+        </script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="prototype.js" type="text/javascript"></script>
+        <script src="animator.js" type="text/javascript"></script>
+        <script src="library.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        <div id="details" class="details_hidden">
+            <div id="details_top">
+                <div id="drag_handle">&#8212;</div>
+                <div id="rating"></div>
+                <div id="title"></div>
+                <div id="creator"></div>
+            </div>
+            <div id="description"></div>
+        </div>
+        <div id="container">
+            <div id="overlay"></div>
+            <div id="header">
+                <div id="header_cap"></div>
+            </div>
+            <div id="collection_info_section">
+                <img src="images/library.png" id="librarybanner" alt="Library" />
+                <div id="collection_info">
+                    <div id="user_image">
+                        <img src="images/C661DC1B-68D1-40FF-8EAA-EB5C71B5392E.png" alt="" />
+                    </div>
+                    <div id="user_name">My Library</div>
+                    <div id="stats">
+                        <div id="total">Collection Total:<br />
+                            <span style="font-weight: bold">1320 Items</span>
+                        </div>
+                        <div id="updated">Last Updated:<br />
+                            <span style="font-weight: bold">Apr 14, 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="collection">
+                    <div id="media" onclick="deselect();">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="medium">
+                                            <div class="title">Molecular Biology of the Cell, Fourth Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/4390430E-7B5C-4146-869A-5C6B6539AF8A-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Bruce Alberts, Alexander Johnson, Julian Lewis, Martin Raff, Keith Roberts, Peter Walter</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Molecular Biology of the Cell is the classic in-dept text reference in cell biology. By extracting the fundamental concepts from this enormous and ever-growing field, the authors tell the story of cell biology, and create a coherent framework through which non-expert readers may approach the subject. Written in clear and concise language, and beautifully illustrated, the book is enjoyable to read, and it provides a clear sense of the excitement of modern biology. Molecular Biology of the Cell sets forth the current understanding of cell biology (completely updated as of Autumn 2001), and it explores the intriguing implications and possibilities of the great deal that remains unknown. The hallmark features of previous editions continue in the Fourth Edition. The book is designed with a clean and open, single-column layout. The art program maintains a completely consistent format and style, and includes over 1,600 photographs, electron micrographs, and original drawings by the authors. Clear and concise concept headings introduce each section. Every chapter contains extensive references. Most important, every chapter has been subjected to a rigorous, collaborative revision process where, in addition to incorporating comments from expert reviewers, each co-author reads and reviews the other authors' prose. The result is a truly integrated work with a single authorial voice. Features : - Places the latest hot topics sensibly in context - including genomics, protein structure, array technology, stem cells and genetics diseases. - Incorporates and emphasises new genomic data. - All of molecular biology is brought together into one section (chapters 4-7) covering classically defined molecular biology and molecular genetics. - Two chapters deal exclusively with methods and contain information on the latest tools and techniques. - New chapters on "Pathogens, Infection, and Innate Immunity". - Cell Biology Interactive CD-ROM is packaged with every copy of the book. - Contains over 1,600 illustrations, electron micrographs and photographs, of which over 1,000 are originally conceived by the authors.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Random Walks in Biology</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/0FD8B1E6-C133-4517-A693-FD3E9A2E23C0-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Howard C. Berg</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This book is a lucid, straightforward introduction to the concepts and techniques of statistical physics that students of biology, biochemistry, and biophysics must know. It provides a sound basis for understanding random motions of molecules, subcellular particles, or cells, or of processes that depend on such motion or are markedly affected by it. Readers do not need to understand thermodynamics in order to acquire a knowledge of the physics involved in diffusion, sedimentation, electrophoresis, chromatography, and cell motility—subjects that become lively and immediate when the author discusses them in terms of random walks of individual particles.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Introduction to Protein Structure</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/A4009F6D-D75F-40D1-B243-068713E15B7C-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Carl Branden, John Tooze</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Introduction to Protein Structure provides an account of the principles of protein structure, with examples of key proteins in their biological context generously illustrated in full-color to illuminate the structural principles described in the text. The first few chapters introduce the general principles of protein structure both for novices and for non-specialists needing a primer. Subsequent chapters use specific examples of proteins to show how they fulfill a wide variety of biological functions. The book ends with chapters on the experimental approach to determining and predicting protein structure, as well as engineering new proteins to modify their functions.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Protein NMR Spectroscopy, Second Edition: Principles and Practice</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/BD3A4DD2-8E5E-4844-B524-D6E1165D9547-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">John Cavanagh, Wayne J. Fairbrother, Arthur G. Palmer III, Nicholas J. Skelton, Mark Rance</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Protein NMR Spectroscopy combines a comprehensive theoretical treatment of NMR spectroscopy with an extensive exposition of the experimental techniques applicable to proteins and other biological macromolecules in solution. Beginning with simple theoretical models and experimental techniques, Protein NMR Spectroscopy develops the complete repertoire of theoretical principles and experimental techniques necessary for understanding and implementing the most sophisticated NMR experiments.<br />
+                                                <br />
+                                                Important new techniques and applications of NMR spectroscopy have emerged since the first edition of this extremely successful book was published in 1996. The second edition includes new sections describing measurement and use of residual dipolar coupling constants for structure determination, TROSY and deuterium labeling for application to large macromolecules, and experimental techniques for characterizing conformational dynamics. In addition, the treatments of instrumentation and signal acquisition, field gradients, multidimensional spectroscopy, and structure calculation are updated and enhanced.<br />
+                                                <br />
+                                                Protein NMR Spectroscopy is written as a graduate-level textbook and will be of interest to biochemists, chemists, biophysicists, and structural biologists who utilize NMR spectroscopy or who wish to understand the latest developments in this field.<br />
+                                                <br />
+                                                · Provides an understanding of the theoretical principles important for biological NMR spectroscopy<br />
+                                                · Demonstrates how to implement, optimize and troubleshoot modern multi-dimensional NMR experiments<br />
+                                                · Allows for the capability of designing effective experimental protocols for investigations of protein structures and dynamics<br />
+                                                · Includes a comprehensive set of example NMR spectra of ubiquitin provides a reference for validation of experimental methods</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">HIGH-RESOLUTION NMR TECHNIQUES IN ORGANIC CHEMISTRYTETRAHEDRON ORGANIC CHEMISTRY SERIES VOLUME 19</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/3502DD21-6C96-4D9C-9833-CD7BE8906E56-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">T.D.W. Claridge</span>
+                                            <span class="rating"></span>
+                                            <span class="description">From the initial observation of proton magnetic resonance in water and in paraffin, the discipline of nuclear magnetic resonance has seen unparalleled growth as an analytical method. Modern NMR spectroscopy is a highly developed, yet still evolving, subject which has applications in chemistry, biology, medicine, materials science and geology. In this text, emphasis is on the more recently developed methods of solution-state NMR applicable to chemical research, which are chosen for their wide applicability and robustness. These have, in many cases, already become established techniques in NMR laboratories, in both academic and industrial establishments. A considerable amount of information and guidance is given on the implementation and execution of the techniques described in this book.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Proteins: Structures and Molecular Properties</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/76AEA622-181C-4959-BA5C-31B4E025AA2A-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Thomas E. Creighton</span>
+                                            <span class="rating"></span>
+                                            <span class="description">In one convenient resource, Creighton's landmark textbook offers an expert introduction to all aspects of proteins—biosynthesis, evolution, structures, dynamics, ligand binding, and catalysis.  It works equally well as a reference or as a classroom text.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Structure and Mechanism in Protein Science: A Guide to Enzyme Catalysis and Protein Folding</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/6E6211D0-3C76-4B60-AC42-36021DFB875E-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Alan Fersht</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Fersht's Structure and Mechanism in Protein Science is a defining exploration of this new era, an expert depiction of the core principles of protein structure, activity, and mechanism as understood and applied today.  A thorough recasting of Fersht's previous text, the book takes a more general look at mechanisms in protein science, emphasizing the unity of concepts in folding and catalysis and the importance of the relationships between basic chemistry, kinetics, thermodynamics, and structure.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Introduction to Quantum Mechanics</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/5F5C9280-E876-4AA2-BA66-AC574E81E324-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">David J. Griffiths</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This book first teaches learners how to do quantum mechanics, and then provides them with a more insightful discussion of what it means. Fundamental principles are covered, quantum theory presented, and special techniques developed for attacking realistic problems. The book¿s two-part coverage organizes topics under basic theory, and assembles an arsenal of approximation schemes with illustrative applications. For physicists and engineers.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Genetics: Analysis of Genes and Genomes</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/02B1800C-5468-4D5D-87A5-B7ACC032D547-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Daniel L. Hartl, Elizabeth W. Jones</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Biological Sciences</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Nuclear Magnetic Resonance</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/577F7AC6-3BDE-4965-8F49-9394B45D05A2-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">P. J. Hore</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Nuclear magnetic resonance spectroscopy is an enormously powerful and versatile physical method for investigating the structure and dynamics of molecules. This text provides a clear, concise introduction to the physical principles of NMR, and the interactions that determine the appearance of NMR spectra. It describes and explains how nuclear spins interact with a magnetic field (the chemical shift) and with each other (spin-spin coupling); how NMR spectra are affected by chemical equilibria (exchange) and molecular motion (relaxation); and concludes with an outline of the workings of some simple one- and two-dimensional Fourier transform NMR experiments. The ways in which NMR may be used to study the structures, motions and reactions of molecules are illustrated and discussed. Only essential mathematics and theory are presented. The emphasis throughout is on understanding the basic principles.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">NMR: The Toolkit</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/F41E7A43-5A2B-41AD-AE71-4D5B173C616C-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">P. J. Hore, J. A. Jones, S. Wimperis</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This book provides a concise, approachable description of how modern NMR experiments work, aimed principally at those who use, or might use, an NMR spectrometer and are curious about why the spectra look the way they do. It provides, in an accessible and relatively informal fashion, the conceptual and theoretical tools needed to understand the inner workings of some of the most important multi-pulse, multi-nuclear, multi-dimensional techniques that chemists and biochemists use to probe the structures and dynamics of molecules in liquids.<br />
+                                                <br />
+                                                Part A (chapters 1-6) starts with the vector model, and proceeds to the more powerful product operator formalism. Part B (chapters 7-10) shows how straightforward quantum mechanics can be used to understand NMR and product operators at a more fundamental level.<br />
+                                                <br />
+                                                The treatment builds on material in P.J. Hore's OCP 32, Nuclear Magnetic Resonance, but it can also be used as a stand-alone text.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Organic Chemistry</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D9408F50-A61A-4FA7-ADE8-A8811C5C8C03-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">G. Marc Loudon</span>
+                                            <span class="rating"></span>
+                                            <span class="description">With more than twenty-five years of teaching experience, Professor Loudon understands where students most often encounter roadblocks. This edition includes many learning aids designed to help develop a true understanding of organic reactivity. Organic Chemistry continues to provide clear and accurate explanations of the material, incorporating examples that use a wide range of interesting environmental, biological, and industrial applications.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Translational Control in Biology And Medicine</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/C69BF864-A8AC-4DFA-82F2-C948B2E6103A-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Michael B. Mathews, Nahun Sonenberg, John W. B. Hershey</span>
+                                            <span class="rating"></span>
+                                            <span class="description">The new edition of this successful monograph has been both updated and broadened. Since the previous (second) edition was published in 2000, the structures of the bacterial and eukaryotic ribosomes have been published, advancing our basic understanding of translation and mechanisms involving protein and RNA regulators. In addition, as the title indicates, this edition has a new focus on the role of translational control in human development and disease. This book, with 30 chapters written by experts in the field, is essential reading for anyone interested in the process of translation, its regulation, and how its failure can be the cause of disease. Related Titles from the Publisher Translational Control of Gene Expression</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Inorganic Chemistry</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/BB9A977D-C994-4F22-92D0-9ADF5E85009F-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Gary L. Miessler, Donald A. Tarr</span>
+                                            <span class="rating"></span>
+                                            <span class="description">A brief, reader-friendly survey of inorganic chemistry. Uses a molecular-orbital approach to explain structure and reactivity. Features strong coverage of molecular symmetry/group theory. Includes special topics such as bioinorganic, environmental inorganic, organometallic, and solid-state chemistry. Applications show the relevance of core material to problems of contemporary interest. For anyone needing a brief introduction to inorganic chemistry.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Advanced Organic Chemistry: Reactions and Mechanisms</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/AE56F2BC-F0CF-4FC9-8BBF-0551BE152E31-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Bernard Miller</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This teaching book covers many types of reactions, organic compounds and mechanisms that are often neglected in most introductory Organic Chemistry courses. Rather than reviewing topics discussed in introductory courses or attempting to cover all aspects of organic chemistry, Miller methodically guides readers through more advanced topics to pique and retain interest and make essential principles and practices accessible to all.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Fundamentals of Biostatistics</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/4C04A7CF-15C4-45B8-B91A-22E4862445A6-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Bernard Rosner</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Bernard Rosner's FUNDAMENTALS OF BIOSTATISTICS is a practical introduction to the methods, techniques, and computation of statistics with human subjects. It prepares students for their future courses and careers by introducing the statistical methods most often used in medical literature. Rosner minimizes the amount of mathematical formulation (algebra-based) while still giving complete explanations of all the important concepts. As in previous editions, a major strength of this book is that every new concept is developed systematically through completely worked out examples from current medical research problems.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Organic Chemistry</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/20E6DD67-D2AC-4073-9DC0-4CC218EBC7B3-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">T. W. Graham Solomons, Craig Fryhle</span>
+                                            <span class="rating"></span>
+                                            <span class="description">On the cover of this book is a Pacific yew tree, found in the ancient forests of the Pacific Northwest. The bark of the Pacific yew tree produces Taxol, found to be a highly effective drug against ovarian and breast cancer. Taxol blocks mitosis during eukaryotic cell division. The supply of Taxol from the Pacific yew tree is vanishingly small, however. A single 100-year-old tree provides only about one dose of the drug (roughly 300 mg). For this reason, as well as the spectacular molecular architecture of Taxol, synthetic organic chemists fiercely undertook efforts to synthesize it. Five total syntheses of Taxol have thus far been reported. Now, a combination of isolation of a related metabolite from European yew needles, and synthesis of Taxol from that intermediate, supply the clinical demand. This case clearly demonstrates the importance of synthesis and the use of organic chemistry. It's just one of the many examples used in the text that will spark the interest of students and get them involved in the study of organic chemistry!</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Organic Chemistry, Study Guide and Solutions Manual</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/8D540ACC-05DC-4227-B6DB-8972311B7C0B-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">T. W. Graham Solomons, Craig Fryhle</span>
+                                            <span class="rating"></span>
+                                            <span class="description">On the cover of this book is a Pacific yew tree, found in the ancient forests of the Pacific Northwest. The bark of the Pacific yew tree produces Taxol, found to be a highly effective drug against ovarian and breast cancer. Taxol blocks mitosis during eukaryotic cell division. The supply of Taxol from the Pacific yew tree is vanishingly small, however. A single 100-year-old tree provides only about one dose of the drug (roughly 300 mg). For this reason, as well as the spectacular molecular architecture of Taxol, synthetic organic chemists fiercely undertook efforts to synthesize it. Five total syntheses of Taxol have thus far been reported. Now, a combination of isolation of a related metabolite from European yew needles, and synthesis of Taxol from that intermediate, supply the clinical demand. This case clearly demonstrates the importance of synthesis and the use of organic chemistry. It's just one of the many examples used in the text that will spark the interest of students and get them involved in the study of organic chemistry!</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Organometallic Chemistry</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/235D050D-8AD2-4351-BDA4-9E71AA08BCC2-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Gary O. Spessard, Gary L. Miessler</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Addressing the need for an introductory Organometallic Chemistry text, Spessard and Miessler have combined numerous illustrations, problems and well-referenced coverage in an overall accessible approach to the topic. The text provides an early, comprehensive introduction to qualitative chemistry to lay a foundation for the upcoming emphasis on structure and bonding, a unique way of categorizing organometallic reactions on the basis of whether actions are mainly at metal or at ligand, a thorough discussion of carbene chemistry allowing readers to focus on all aspects of metal carbenes in one chapter (Chapter 10), and numerous applications of organometallic chemistry showing students that field is relevant and growing.</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- End media -->
+                </div>
+                <!-- End collection -->
+                <div id="sidebar">
+                    <div class="navigation_header"></div>
+                    
+                    <div class="shelf_selection"><a class="shelf" href="index.html">Books</a><a class="shelf" href="movies.html">Movies</a><a class="shelf" href="aboveprinter.html">Above printer</a><a class="shelf" href="cookbooks.html">cookbooks</a><a class="shelf" href="getridof.html">Get rid of?</a><a class="shelf" href="maes2ndshelf.html">Mae's 2nd shelf</a><a class="shelf" href="maes3rdshelf.html">Mae's 3rd shelf</a><a class="shelf" href="maestopshelf.html">Mae's top shelf</a><a class="shelf" href="morenexttoprinter.html">more next to printer</a><a class="shelf" href="nexttoprinter.html">next to printer</a><a class="shelf" href="nightstand.html">nightstand</a><a class="shelf" href="samsnightstand.html">Sam's night stand</a><a class="shelf" href="textbooks2ndfrombottomofwhiteshelf.html">Textbooks - 2nd from bottom of white shelf</a><a class="shelf" href="textbooksbottomofwhiteshelf.html">Textbooks-Bottom of white shelf</a><a class="shelf" href="tolkien.html">Tolkien</a><a class="shelf" href="topwhiteshelf.html">Top White Shelf</a><a class="shelf selected" href="trophyshelf.html">trophy shelf</a><a class="shelf" href="underbearbottomshelf.html">under bear bottom shelf</a><a class="shelf" href="underbearsecondshelf.html">under bear second shelf</a><a class="shelf" href="underbeartopshelf.html">under bear top shelf</a><a class="shelf" href="underwindow.html">under window</a><a class="shelf" href="white3rdshelf.html">White 3rd shelf</a><a class="shelf" href="white4thshelf.html">White 4th shelf</a><a class="shelf" href="mystery.html">Mystery</a><a class="shelf" href="outdoors.html">outdoors</a><a class="shelf" href="textbooks.html">textbooks</a></div>
+                    <div class="navigation_footer"></div>
+                </div>
+                <!-- End sidebar -->
+                <div style="clear: both;"></div>
+            </div>
+            <!-- End content -->
+            <div id="footer">
+                <a href="http://www.delicious-monster.com">
+                    <img src="images/monster.png" alt="" />
+                     Made with Delicious Library
+                </a>
+                <p></p>
+            </div>
+            <!-- End footer -->
+        </div>
+        <!-- End container -->
+    </body>
+</html>

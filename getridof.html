@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="columns-per-page" content="1" />
+        <title>Library</title>
+        <script type="text/javascript">
+        if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/))
+            window.location.pathname = window.location.pathname.substr(0, window.location.pathname.lastIndexOf("/")) + "/iphone/index.html";
+        </script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="prototype.js" type="text/javascript"></script>
+        <script src="animator.js" type="text/javascript"></script>
+        <script src="library.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        <div id="details" class="details_hidden">
+            <div id="details_top">
+                <div id="drag_handle">&#8212;</div>
+                <div id="rating"></div>
+                <div id="title"></div>
+                <div id="creator"></div>
+            </div>
+            <div id="description"></div>
+        </div>
+        <div id="container">
+            <div id="overlay"></div>
+            <div id="header">
+                <div id="header_cap"></div>
+            </div>
+            <div id="collection_info_section">
+                <img src="images/library.png" id="librarybanner" alt="Library" />
+                <div id="collection_info">
+                    <div id="user_image">
+                        <img src="images/C661DC1B-68D1-40FF-8EAA-EB5C71B5392E.png" alt="" />
+                    </div>
+                    <div id="user_name">My Library</div>
+                    <div id="stats">
+                        <div id="total">Collection Total:<br />
+                            <span style="font-weight: bold">1320 Items</span>
+                        </div>
+                        <div id="updated">Last Updated:<br />
+                            <span style="font-weight: bold">Apr 14, 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="collection">
+                    <div id="media" onclick="deselect();">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="medium">
+                                            <div class="title">Winter Trails Vermont and New Hampshire, 2nd: The Best Cross-Country Ski &amp; Showshoe Trails</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/D179BC84-CF34-47F4-A15E-7B12F7773A76-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Marty Basch</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Designed for everyone, from consummate skiers and snowshoers to beginners and families, Winter Trails will lead you to the best places to snowshoe or cross-country ski in Vermont and New Hampshire. Be it a day trip or a two-hour jaunt, you can enjoy the beauty and peacefulness of winter with these forty-six carefully researched trails. Each outing includes information about the natural landscape, distance in miles, trail difficulty and surface quality. You'll also find a rundown of proper equipment and clothing suggestions and tips on safety, navigation, and trail etiquette. Use this guide to explore the best trails that Vermont and New Hampshire have to offer. (6 x 9, 192 pages, b&amp;w photos, maps, icons)</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Training for Speed, Agility, and Quickness</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/458C4593-B03F-440B-9696-5F77445C6A5A-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Lee E. Brown, Vance A. Ferrigno, Juan Carlos Santana</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Athletes and coaches serious about performance use speed, agility and quickness (SAQ) drills to gain an extra step on the competition. In this book more than 200 of the best possible drills for developing these three key athletic skills are included, with diagrams showing how to correctly perform the exercises. It also provides all the tools to design customised workouts based on individual athlete needs. SAQ development programmes are included for baseball and softball, volleyball, American football, tennis, soccer, hockey, basketball, netball, cricket, rugby and Australian rules football. Coaches and athletes can use these as guides for customising their own sport-specific SAQ programme.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">Power Systems Jumping Into Plyometrics Book</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/89F2768F-334D-43A6-8FC2-E053CE080B16-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Donald A. Chu</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Jumping Into Plyometrics by Donald Chu Ph.D at Power Systems, Inc.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">The Norton Anthology of Poetry: Shorter Edition</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/FCDF4F58-DAB7-4CB4-8D22-8CB7202686AC-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Margaret Ferguson, Mary Jo Salter, Jon Stallworthy</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Offering over one thousand years of verse from the medieval period to the present, The Norton Anthology of Poetry is the classroom standard for the study of poetry in English.The Fifth Edition retains the flexibility and breadth of selection that has defined this classic anthology, while improved and expanded editorial apparatus make it an even more useful teaching tool.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">24 Hours</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/3D47B6E7-BF55-4639-B207-35990757F8C7-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">Greg Iles</span>
+                                            <span class="rating"></span>
+                                            <span class="description">Greg Iles's novels have been praised for their unusual depth of characterization and complexity of plot, and The Quiet Game was no exception. Reviewers called it "beautifully crafted" (The Providence Sunday Journal), "heartbreakingly honest" (Cleveland Plain Dealer), and simply "a grand thriller with a wonderful Southern seasoning" (The Orange County Register). In 24 Hours, Iles takes readers on a daringly executed roller-coaster ride with enough twists and surprises to last a lifetime.<br />
+                                                <br />
+                                                24 Hours begins with the perfect family. On the perfect night. About to become trapped in the perfect crime. Will Jennings is a successful young doctor in Jackson, Mississippi, with a thriving practice, a beautiful wife, and a five-year-old daughter he loves beyond measure. But Will and his family are being watched by a con man and psychopath who may be a genius. A man who has crafted the unbeatable crime. A man who has never been caught and whose victims have never talked to the police. A man whose life's work strikes at the heart of every family's unspoken fear: the unstoppable kidnapping.<br />
+                                                <br />
+                                                But this man has never met the likes of Will and Karen Jennings.</span>
+                                        </div>
+                                        <div class="medium">
+                                            <div class="title">International Politics on the World Stage: John T. Rourke</div>
+                                            <div class="cover" onclick="showDetails(this, event)">
+                                                <img src="images/86690FB6-1C9A-48EE-9D5E-037CC21E2098-140.png" alt="" />
+                                            </div>
+                                            <span class="creator">John T. Rourke</span>
+                                            <span class="rating"></span>
+                                            <span class="description">This text reflects the author's view that our lives are affected by world politics, and is designed to enable students to learn how a better understanding of world politics can be a useful tool in dealing with the complexities of modern life. Covering events up to early 1997, each chapter has a "Did you know" section that encourages students to think critically about world events and how the outcome will affect their lives. Key terms are highlighted to aid the students' understanding of each chapter's basic concepts. It is aimed at the political science, international relations and social science markets.</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- End media -->
+                </div>
+                <!-- End collection -->
+                <div id="sidebar">
+                    <div class="navigation_header"></div>
+                    
+                    <div class="shelf_selection"><a class="shelf" href="index.html">Books</a><a class="shelf" href="movies.html">Movies</a><a class="shelf" href="aboveprinter.html">Above printer</a><a class="shelf" href="cookbooks.html">cookbooks</a><a class="shelf selected" href="getridof.html">Get rid of?</a><a class="shelf" href="maes2ndshelf.html">Mae's 2nd shelf</a><a class="shelf" href="maes3rdshelf.html">Mae's 3rd shelf</a><a class="shelf" href="maestopshelf.html">Mae's top shelf</a><a class="shelf" href="morenexttoprinter.html">more next to printer</a><a class="shelf" href="nexttoprinter.html">next to printer</a><a class="shelf" href="nightstand.html">nightstand</a><a class="shelf" href="samsnightstand.html">Sam's night stand</a><a class="shelf" href="textbooks2ndfrombottomofwhiteshelf.html">Textbooks - 2nd from bottom of white shelf</a><a class="shelf" href="textbooksbottomofwhiteshelf.html">Textbooks-Bottom of white shelf</a><a class="shelf" href="tolkien.html">Tolkien</a><a class="shelf" href="topwhiteshelf.html">Top White Shelf</a><a class="shelf" href="trophyshelf.html">trophy shelf</a><a class="shelf" href="underbearbottomshelf.html">under bear bottom shelf</a><a class="shelf" href="underbearsecondshelf.html">under bear second shelf</a><a class="shelf" href="underbeartopshelf.html">under bear top shelf</a><a class="shelf" href="underwindow.html">under window</a><a class="shelf" href="white3rdshelf.html">White 3rd shelf</a><a class="shelf" href="white4thshelf.html">White 4th shelf</a><a class="shelf" href="mystery.html">Mystery</a><a class="shelf" href="outdoors.html">outdoors</a><a class="shelf" href="textbooks.html">textbooks</a></div>
+                    <div class="navigation_footer"></div>
+                </div>
+                <!-- End sidebar -->
+                <div style="clear: both;"></div>
+            </div>
+            <!-- End content -->
+            <div id="footer">
+                <a href="http://www.delicious-monster.com">
+                    <img src="images/monster.png" alt="" />
+                     Made with Delicious Library
+                </a>
+                <p></p>
+            </div>
+            <!-- End footer -->
+        </div>
+        <!-- End container -->
+    </body>
+</html>
